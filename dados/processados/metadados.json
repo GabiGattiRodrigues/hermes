@@ -1,0 +1,92 @@
+{
+  "gerado_em": "2026-09-29 18:17",
+  "origem": {
+    "Censo 2022 – malha de setores (SP)": {
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/malha_com_atributos/setores/gpkg/UF/SP/SP_setores_CD2022.gpkg",
+      "arquivo": "SP_setores_CD2022.gpkg",
+      "baixado_em": "2026-09-29 14:23",
+      "tamanho_mb": 182.1
+    },
+    "Censo 2022 – agregados de demografia": {
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip",
+      "arquivo": "censo_demografia.zip",
+      "baixado_em": "2026-09-29 14:23",
+      "tamanho_mb": 22.6
+    },
+    "Censo 2022 – dicionário dos agregados": {
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/dicionario_de_dados_agregados_por_setores_censitarios_20260520.xlsx",
+      "arquivo": "censo_agregados_dicionario.xlsx",
+      "baixado_em": "2026-09-29 14:23",
+      "tamanho_mb": 0.1
+    },
+    "Censo 2022 – rendimento do responsável": {
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Rendimento_do_Responsavel/Agregados_por_setores_renda_responsavel_BR_20260508_csv.zip",
+      "arquivo": "censo_renda.zip",
+      "baixado_em": "2026-09-29 14:23",
+      "tamanho_mb": 9.4
+    },
+    "Censo 2022 – dicionário do rendimento": {
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Rendimento_do_Responsavel/dicionario_de_dados_renda_responsavel_20260508.xlsx",
+      "arquivo": "censo_renda_dicionario.xlsx",
+      "baixado_em": "2026-09-29 14:23",
+      "tamanho_mb": 0.0
+    },
+    "Pesquisa Origem-Destino 2023 (Metrô-SP)": {
+      "url": "https://transparencia.metrosp.com.br/sites/default/files/Site_190225_PesquisaOD2023.zip",
+      "arquivo": "pesquisa_od_2023.zip",
+      "baixado_em": "2026-09-29 14:23",
+      "tamanho_mb": 198.4
+    },
+    "POF 2017-2018 – despesa com alimentação (SIDRA 6972, SP)": {
+      "url": "https://apisidra.ibge.gov.br/values/t/6972/n3/35/v/1201/p/all/c339/7999,47558,47559,47560,47561,47562,47563,47564/c12190/103625,103626,103627,103631,103636,103640,103644,103649,103654,103661,103665,103670,103674,103679,103680,103681,103682,103684,103685,103690,103691,103692,103694,103695,103696,103697,8044,8862",
+      "arquivo": "pof_6972_sp.json",
+      "baixado_em": "2026-09-29 14:23",
+      "tamanho_mb": 0.1
+    },
+    "IPCA – número-índice (SIDRA 1737)": {
+      "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2266/p/201801,202207",
+      "arquivo": "ipca_1737.json",
+      "baixado_em": "2026-09-29 14:23",
+      "tamanho_mb": 0.0
+    }
+  },
+  "censo": {
+    "variaveis": {
+      "V0001": "Total de pessoas",
+      "V0005": "Média de moradores em Domicílios Particulares Ocupados (Total pessoas em Domicílios Particulares Ocupados / DPPO + DPIO)",
+      "V0007": "Total de Domicílios Particulares Ocupados (DPPO + DPIO)",
+      "V01031": "0 a 4 anos",
+      "V01032": "5 a 9 anos",
+      "V01033": "10 a 14 anos",
+      "V01034": "15 a 19 anos",
+      "V01035": "20 a 24 anos",
+      "V01036": "25 a 29 anos",
+      "V01037": "30 a 39 anos",
+      "V01038": "40 a 49 anos",
+      "V01039": "50 a 59 anos",
+      "V01040": "60 a 69 anos",
+      "V01041": "70 anos ou mais",
+      "V06004": "Valor do rendimento nominal médio mensal das pessoas responsáveis com rendimentos por domicílios particulares permanentes ocupados"
+    },
+    "variavel_renda": "V06004",
+    "n_setores": 27301,
+    "pop_total": 11451999.0,
+    "setores_sem_renda": 629
+  },
+  "fator_ipca": 1.3004084596164454,
+  "gasto_trabalhador_2018": {
+    "Pronto para consumo": 6.79125,
+    "Café e bebidas não alcoólicas": 2.323125
+  },
+  "empregos_cidade": 6459882.543239,
+  "od_pessoas_geolocalizadas": 39533,
+  "premissas": {
+    "minutos_caminhada": 15,
+    "velocidade_km_h": 4.8,
+    "fator_renda_familia": 1.5,
+    "trabalhadores_por_familia": 1.6,
+    "parcela_trabalhador_mercado": 0.3
+  },
+  "distancia_caminhada_m": 1200.0,
+  "nome_rede": "Ágora Express"
+}

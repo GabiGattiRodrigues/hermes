@@ -1,0 +1,1801 @@
+loja_id,mes,categoria,vendas
+AG01,2025-01,Mercearia básica,97164.92
+AG01,2025-02,Mercearia básica,100951.3
+AG01,2025-03,Mercearia básica,107279.46
+AG01,2025-04,Mercearia básica,92838.11
+AG01,2025-05,Mercearia básica,95899.43
+AG01,2025-06,Mercearia básica,103007.42
+AG01,2025-07,Mercearia básica,100745.43
+AG01,2025-08,Mercearia básica,102265.15
+AG01,2025-09,Mercearia básica,98077.38
+AG01,2025-10,Mercearia básica,106951.87
+AG01,2025-11,Mercearia básica,110666.29
+AG01,2025-12,Mercearia básica,118093.0
+AG01,2025-01,Hortifruti,73677.08
+AG01,2025-02,Hortifruti,67722.05
+AG01,2025-03,Hortifruti,66710.68
+AG01,2025-04,Hortifruti,70935.23
+AG01,2025-05,Hortifruti,66379.32
+AG01,2025-06,Hortifruti,72766.24
+AG01,2025-07,Hortifruti,69465.72
+AG01,2025-08,Hortifruti,68998.62
+AG01,2025-09,Hortifruti,67308.27
+AG01,2025-10,Hortifruti,74028.98
+AG01,2025-11,Hortifruti,71867.48
+AG01,2025-12,Hortifruti,78388.34
+AG01,2025-01,Carnes e peixes,95604.51
+AG01,2025-02,Carnes e peixes,94930.86
+AG01,2025-03,Carnes e peixes,99096.97
+AG01,2025-04,Carnes e peixes,99331.55
+AG01,2025-05,Carnes e peixes,99421.43
+AG01,2025-06,Carnes e peixes,108300.42
+AG01,2025-07,Carnes e peixes,95345.38
+AG01,2025-08,Carnes e peixes,94842.2
+AG01,2025-09,Carnes e peixes,93423.04
+AG01,2025-10,Carnes e peixes,100346.14
+AG01,2025-11,Carnes e peixes,107071.41
+AG01,2025-12,Carnes e peixes,111262.38
+AG01,2025-01,Aves e ovos,29220.55
+AG01,2025-02,Aves e ovos,27781.29
+AG01,2025-03,Aves e ovos,31481.8
+AG01,2025-04,Aves e ovos,31628.0
+AG01,2025-05,Aves e ovos,31313.14
+AG01,2025-06,Aves e ovos,29476.83
+AG01,2025-07,Aves e ovos,30829.99
+AG01,2025-08,Aves e ovos,30652.5
+AG01,2025-09,Aves e ovos,30809.23
+AG01,2025-10,Aves e ovos,31831.34
+AG01,2025-11,Aves e ovos,32049.47
+AG01,2025-12,Aves e ovos,36255.37
+AG01,2025-01,Laticínios e frios,68959.22
+AG01,2025-02,Laticínios e frios,66240.97
+AG01,2025-03,Laticínios e frios,70930.52
+AG01,2025-04,Laticínios e frios,63897.4
+AG01,2025-05,Laticínios e frios,67636.84
+AG01,2025-06,Laticínios e frios,71156.86
+AG01,2025-07,Laticínios e frios,70559.86
+AG01,2025-08,Laticínios e frios,67787.6
+AG01,2025-09,Laticínios e frios,74060.59
+AG01,2025-10,Laticínios e frios,65814.81
+AG01,2025-11,Laticínios e frios,75021.22
+AG01,2025-12,Laticínios e frios,72657.37
+AG01,2025-01,Padaria e biscoitos,56951.31
+AG01,2025-02,Padaria e biscoitos,55466.84
+AG01,2025-03,Padaria e biscoitos,59635.57
+AG01,2025-04,Padaria e biscoitos,60009.47
+AG01,2025-05,Padaria e biscoitos,60256.38
+AG01,2025-06,Padaria e biscoitos,56911.92
+AG01,2025-07,Padaria e biscoitos,56589.5
+AG01,2025-08,Padaria e biscoitos,60451.41
+AG01,2025-09,Padaria e biscoitos,57361.64
+AG01,2025-10,Padaria e biscoitos,54334.35
+AG01,2025-11,Padaria e biscoitos,56911.5
+AG01,2025-12,Padaria e biscoitos,63607.43
+AG01,2025-01,Café e bebidas não alcoólicas,62885.58
+AG01,2025-02,Café e bebidas não alcoólicas,58691.02
+AG01,2025-03,Café e bebidas não alcoólicas,58792.96
+AG01,2025-04,Café e bebidas não alcoólicas,55597.33
+AG01,2025-05,Café e bebidas não alcoólicas,57249.83
+AG01,2025-06,Café e bebidas não alcoólicas,58602.5
+AG01,2025-07,Café e bebidas não alcoólicas,55926.06
+AG01,2025-08,Café e bebidas não alcoólicas,58109.93
+AG01,2025-09,Café e bebidas não alcoólicas,54948.78
+AG01,2025-10,Café e bebidas não alcoólicas,55776.08
+AG01,2025-11,Café e bebidas não alcoólicas,57952.96
+AG01,2025-12,Café e bebidas não alcoólicas,66448.6
+AG01,2025-01,Bebidas alcoólicas,31250.35
+AG01,2025-02,Bebidas alcoólicas,28301.6
+AG01,2025-03,Bebidas alcoólicas,24414.15
+AG01,2025-04,Bebidas alcoólicas,24992.5
+AG01,2025-05,Bebidas alcoólicas,24949.78
+AG01,2025-06,Bebidas alcoólicas,21440.65
+AG01,2025-07,Bebidas alcoólicas,20637.2
+AG01,2025-08,Bebidas alcoólicas,23887.93
+AG01,2025-09,Bebidas alcoólicas,24301.85
+AG01,2025-10,Bebidas alcoólicas,22424.89
+AG01,2025-11,Bebidas alcoólicas,23603.7
+AG01,2025-12,Bebidas alcoólicas,32828.89
+AG01,2025-01,Pronto para consumo,64311.36
+AG01,2025-02,Pronto para consumo,65515.98
+AG01,2025-03,Pronto para consumo,64607.12
+AG01,2025-04,Pronto para consumo,66333.2
+AG01,2025-05,Pronto para consumo,72136.49
+AG01,2025-06,Pronto para consumo,66405.87
+AG01,2025-07,Pronto para consumo,70138.68
+AG01,2025-08,Pronto para consumo,64516.29
+AG01,2025-09,Pronto para consumo,66908.55
+AG01,2025-10,Pronto para consumo,64463.39
+AG01,2025-11,Pronto para consumo,69121.63
+AG01,2025-12,Pronto para consumo,81075.11
+AG01,2025-01,Outros alimentos,51003.63
+AG01,2025-02,Outros alimentos,53984.16
+AG01,2025-03,Outros alimentos,56269.33
+AG01,2025-04,Outros alimentos,53976.86
+AG01,2025-05,Outros alimentos,51725.97
+AG01,2025-06,Outros alimentos,55805.33
+AG01,2025-07,Outros alimentos,54151.64
+AG01,2025-08,Outros alimentos,56255.1
+AG01,2025-09,Outros alimentos,55665.22
+AG01,2025-10,Outros alimentos,60240.92
+AG01,2025-11,Outros alimentos,57140.65
+AG01,2025-12,Outros alimentos,60755.03
+AG02,2025-01,Mercearia básica,56162.13
+AG02,2025-02,Mercearia básica,56481.27
+AG02,2025-03,Mercearia básica,57916.28
+AG02,2025-04,Mercearia básica,56547.81
+AG02,2025-05,Mercearia básica,59764.27
+AG02,2025-06,Mercearia básica,52342.3
+AG02,2025-07,Mercearia básica,53799.02
+AG02,2025-08,Mercearia básica,53032.99
+AG02,2025-09,Mercearia básica,54475.57
+AG02,2025-10,Mercearia básica,51852.78
+AG02,2025-11,Mercearia básica,59633.72
+AG02,2025-12,Mercearia básica,63174.06
+AG02,2025-01,Hortifruti,35068.54
+AG02,2025-02,Hortifruti,34082.1
+AG02,2025-03,Hortifruti,38341.02
+AG02,2025-04,Hortifruti,39360.04
+AG02,2025-05,Hortifruti,41707.51
+AG02,2025-06,Hortifruti,43664.6
+AG02,2025-07,Hortifruti,38534.93
+AG02,2025-08,Hortifruti,35922.64
+AG02,2025-09,Hortifruti,33928.06
+AG02,2025-10,Hortifruti,38253.32
+AG02,2025-11,Hortifruti,37690.89
+AG02,2025-12,Hortifruti,42514.23
+AG02,2025-01,Carnes e peixes,53777.64
+AG02,2025-02,Carnes e peixes,52306.98
+AG02,2025-03,Carnes e peixes,58484.49
+AG02,2025-04,Carnes e peixes,55886.06
+AG02,2025-05,Carnes e peixes,55010.87
+AG02,2025-06,Carnes e peixes,52650.72
+AG02,2025-07,Carnes e peixes,50995.04
+AG02,2025-08,Carnes e peixes,54116.94
+AG02,2025-09,Carnes e peixes,55300.03
+AG02,2025-10,Carnes e peixes,60573.6
+AG02,2025-11,Carnes e peixes,58043.75
+AG02,2025-12,Carnes e peixes,66977.82
+AG02,2025-01,Aves e ovos,16582.54
+AG02,2025-02,Aves e ovos,15222.5
+AG02,2025-03,Aves e ovos,16200.78
+AG02,2025-04,Aves e ovos,16396.27
+AG02,2025-05,Aves e ovos,18910.9
+AG02,2025-06,Aves e ovos,16317.62
+AG02,2025-07,Aves e ovos,17729.67
+AG02,2025-08,Aves e ovos,16251.23
+AG02,2025-09,Aves e ovos,17812.38
+AG02,2025-10,Aves e ovos,17332.14
+AG02,2025-11,Aves e ovos,17543.86
+AG02,2025-12,Aves e ovos,19512.18
+AG02,2025-01,Laticínios e frios,36680.28
+AG02,2025-02,Laticínios e frios,36818.08
+AG02,2025-03,Laticínios e frios,37048.56
+AG02,2025-04,Laticínios e frios,35648.19
+AG02,2025-05,Laticínios e frios,35555.04
+AG02,2025-06,Laticínios e frios,40523.3
+AG02,2025-07,Laticínios e frios,43475.7
+AG02,2025-08,Laticínios e frios,38205.46
+AG02,2025-09,Laticínios e frios,37676.89
+AG02,2025-10,Laticínios e frios,38446.59
+AG02,2025-11,Laticínios e frios,42076.93
+AG02,2025-12,Laticínios e frios,44066.94
+AG02,2025-01,Padaria e biscoitos,32537.52
+AG02,2025-02,Padaria e biscoitos,33346.79
+AG02,2025-03,Padaria e biscoitos,33932.66
+AG02,2025-04,Padaria e biscoitos,35863.79
+AG02,2025-05,Padaria e biscoitos,33518.65
+AG02,2025-06,Padaria e biscoitos,31240.55
+AG02,2025-07,Padaria e biscoitos,31016.9
+AG02,2025-08,Padaria e biscoitos,36070.91
+AG02,2025-09,Padaria e biscoitos,36202.33
+AG02,2025-10,Padaria e biscoitos,32916.18
+AG02,2025-11,Padaria e biscoitos,33885.99
+AG02,2025-12,Padaria e biscoitos,41090.4
+AG02,2025-01,Café e bebidas não alcoólicas,31916.7
+AG02,2025-02,Café e bebidas não alcoólicas,30644.46
+AG02,2025-03,Café e bebidas não alcoólicas,32255.44
+AG02,2025-04,Café e bebidas não alcoólicas,30624.19
+AG02,2025-05,Café e bebidas não alcoólicas,31226.42
+AG02,2025-06,Café e bebidas não alcoólicas,30980.2
+AG02,2025-07,Café e bebidas não alcoólicas,31766.08
+AG02,2025-08,Café e bebidas não alcoólicas,33511.7
+AG02,2025-09,Café e bebidas não alcoólicas,31376.2
+AG02,2025-10,Café e bebidas não alcoólicas,32256.43
+AG02,2025-11,Café e bebidas não alcoólicas,29318.91
+AG02,2025-12,Café e bebidas não alcoólicas,38698.76
+AG02,2025-01,Bebidas alcoólicas,14120.7
+AG02,2025-02,Bebidas alcoólicas,13165.1
+AG02,2025-03,Bebidas alcoólicas,11276.85
+AG02,2025-04,Bebidas alcoólicas,11587.81
+AG02,2025-05,Bebidas alcoólicas,12335.17
+AG02,2025-06,Bebidas alcoólicas,9372.88
+AG02,2025-07,Bebidas alcoólicas,10030.92
+AG02,2025-08,Bebidas alcoólicas,11501.2
+AG02,2025-09,Bebidas alcoólicas,11591.54
+AG02,2025-10,Bebidas alcoólicas,12388.86
+AG02,2025-11,Bebidas alcoólicas,12588.53
+AG02,2025-12,Bebidas alcoólicas,18109.47
+AG02,2025-01,Pronto para consumo,33093.96
+AG02,2025-02,Pronto para consumo,30599.56
+AG02,2025-03,Pronto para consumo,32979.4
+AG02,2025-04,Pronto para consumo,33757.44
+AG02,2025-05,Pronto para consumo,33646.35
+AG02,2025-06,Pronto para consumo,31590.51
+AG02,2025-07,Pronto para consumo,33501.85
+AG02,2025-08,Pronto para consumo,33733.37
+AG02,2025-09,Pronto para consumo,37824.22
+AG02,2025-10,Pronto para consumo,36631.86
+AG02,2025-11,Pronto para consumo,33236.03
+AG02,2025-12,Pronto para consumo,37806.04
+AG02,2025-01,Outros alimentos,26443.89
+AG02,2025-02,Outros alimentos,26242.2
+AG02,2025-03,Outros alimentos,28903.93
+AG02,2025-04,Outros alimentos,30219.58
+AG02,2025-05,Outros alimentos,27432.9
+AG02,2025-06,Outros alimentos,27535.88
+AG02,2025-07,Outros alimentos,25555.0
+AG02,2025-08,Outros alimentos,28220.93
+AG02,2025-09,Outros alimentos,26979.48
+AG02,2025-10,Outros alimentos,27708.11
+AG02,2025-11,Outros alimentos,28320.19
+AG02,2025-12,Outros alimentos,32565.26
+AG03,2025-01,Mercearia básica,25014.73
+AG03,2025-02,Mercearia básica,28445.39
+AG03,2025-03,Mercearia básica,25240.4
+AG03,2025-04,Mercearia básica,25482.14
+AG03,2025-05,Mercearia básica,29508.04
+AG03,2025-06,Mercearia básica,31126.84
+AG03,2025-07,Mercearia básica,25387.04
+AG03,2025-08,Mercearia básica,26427.49
+AG03,2025-09,Mercearia básica,27382.25
+AG03,2025-10,Mercearia básica,29348.81
+AG03,2025-11,Mercearia básica,26647.49
+AG03,2025-12,Mercearia básica,30579.05
+AG03,2025-01,Hortifruti,19528.9
+AG03,2025-02,Hortifruti,18237.38
+AG03,2025-03,Hortifruti,18434.44
+AG03,2025-04,Hortifruti,18659.16
+AG03,2025-05,Hortifruti,17536.49
+AG03,2025-06,Hortifruti,18562.06
+AG03,2025-07,Hortifruti,18535.9
+AG03,2025-08,Hortifruti,19003.76
+AG03,2025-09,Hortifruti,18270.03
+AG03,2025-10,Hortifruti,19232.57
+AG03,2025-11,Hortifruti,20550.49
+AG03,2025-12,Hortifruti,21770.63
+AG03,2025-01,Carnes e peixes,26571.17
+AG03,2025-02,Carnes e peixes,24868.53
+AG03,2025-03,Carnes e peixes,26108.03
+AG03,2025-04,Carnes e peixes,25182.79
+AG03,2025-05,Carnes e peixes,26524.36
+AG03,2025-06,Carnes e peixes,25981.23
+AG03,2025-07,Carnes e peixes,28988.44
+AG03,2025-08,Carnes e peixes,28244.72
+AG03,2025-09,Carnes e peixes,26616.5
+AG03,2025-10,Carnes e peixes,25130.59
+AG03,2025-11,Carnes e peixes,25683.25
+AG03,2025-12,Carnes e peixes,31866.58
+AG03,2025-01,Aves e ovos,8318.94
+AG03,2025-02,Aves e ovos,7989.37
+AG03,2025-03,Aves e ovos,7524.53
+AG03,2025-04,Aves e ovos,8600.06
+AG03,2025-05,Aves e ovos,8399.05
+AG03,2025-06,Aves e ovos,7766.94
+AG03,2025-07,Aves e ovos,8019.06
+AG03,2025-08,Aves e ovos,8319.35
+AG03,2025-09,Aves e ovos,8231.93
+AG03,2025-10,Aves e ovos,8091.3
+AG03,2025-11,Aves e ovos,8494.71
+AG03,2025-12,Aves e ovos,9323.71
+AG03,2025-01,Laticínios e frios,18891.79
+AG03,2025-02,Laticínios e frios,19170.66
+AG03,2025-03,Laticínios e frios,16490.2
+AG03,2025-04,Laticínios e frios,18527.52
+AG03,2025-05,Laticínios e frios,18914.43
+AG03,2025-06,Laticínios e frios,20169.43
+AG03,2025-07,Laticínios e frios,19506.99
+AG03,2025-08,Laticínios e frios,17171.71
+AG03,2025-09,Laticínios e frios,19058.23
+AG03,2025-10,Laticínios e frios,20439.45
+AG03,2025-11,Laticínios e frios,18058.69
+AG03,2025-12,Laticínios e frios,22512.1
+AG03,2025-01,Padaria e biscoitos,15952.53
+AG03,2025-02,Padaria e biscoitos,15358.73
+AG03,2025-03,Padaria e biscoitos,15385.09
+AG03,2025-04,Padaria e biscoitos,15947.8
+AG03,2025-05,Padaria e biscoitos,17305.87
+AG03,2025-06,Padaria e biscoitos,16696.12
+AG03,2025-07,Padaria e biscoitos,17683.98
+AG03,2025-08,Padaria e biscoitos,17200.08
+AG03,2025-09,Padaria e biscoitos,16576.7
+AG03,2025-10,Padaria e biscoitos,17694.26
+AG03,2025-11,Padaria e biscoitos,17239.68
+AG03,2025-12,Padaria e biscoitos,19437.51
+AG03,2025-01,Café e bebidas não alcoólicas,16013.89
+AG03,2025-02,Café e bebidas não alcoólicas,15491.93
+AG03,2025-03,Café e bebidas não alcoólicas,14533.45
+AG03,2025-04,Café e bebidas não alcoólicas,15812.54
+AG03,2025-05,Café e bebidas não alcoólicas,14188.18
+AG03,2025-06,Café e bebidas não alcoólicas,15649.54
+AG03,2025-07,Café e bebidas não alcoólicas,14906.41
+AG03,2025-08,Café e bebidas não alcoólicas,15956.82
+AG03,2025-09,Café e bebidas não alcoólicas,15624.93
+AG03,2025-10,Café e bebidas não alcoólicas,16483.44
+AG03,2025-11,Café e bebidas não alcoólicas,16233.61
+AG03,2025-12,Café e bebidas não alcoólicas,17278.19
+AG03,2025-01,Bebidas alcoólicas,7200.07
+AG03,2025-02,Bebidas alcoólicas,6472.38
+AG03,2025-03,Bebidas alcoólicas,5631.53
+AG03,2025-04,Bebidas alcoólicas,6232.99
+AG03,2025-05,Bebidas alcoólicas,5966.56
+AG03,2025-06,Bebidas alcoólicas,4743.76
+AG03,2025-07,Bebidas alcoólicas,4669.68
+AG03,2025-08,Bebidas alcoólicas,5788.85
+AG03,2025-09,Bebidas alcoólicas,5438.3
+AG03,2025-10,Bebidas alcoólicas,5588.65
+AG03,2025-11,Bebidas alcoólicas,6105.05
+AG03,2025-12,Bebidas alcoólicas,8801.88
+AG03,2025-01,Pronto para consumo,16271.03
+AG03,2025-02,Pronto para consumo,13371.03
+AG03,2025-03,Pronto para consumo,16025.27
+AG03,2025-04,Pronto para consumo,15840.18
+AG03,2025-05,Pronto para consumo,16113.26
+AG03,2025-06,Pronto para consumo,17111.64
+AG03,2025-07,Pronto para consumo,14236.18
+AG03,2025-08,Pronto para consumo,15323.58
+AG03,2025-09,Pronto para consumo,16256.51
+AG03,2025-10,Pronto para consumo,14583.18
+AG03,2025-11,Pronto para consumo,17671.73
+AG03,2025-12,Pronto para consumo,18488.11
+AG03,2025-01,Outros alimentos,14286.15
+AG03,2025-02,Outros alimentos,12643.22
+AG03,2025-03,Outros alimentos,14262.72
+AG03,2025-04,Outros alimentos,14445.53
+AG03,2025-05,Outros alimentos,13854.43
+AG03,2025-06,Outros alimentos,13855.49
+AG03,2025-07,Outros alimentos,13880.41
+AG03,2025-08,Outros alimentos,13115.49
+AG03,2025-09,Outros alimentos,13593.41
+AG03,2025-10,Outros alimentos,13590.01
+AG03,2025-11,Outros alimentos,14517.45
+AG03,2025-12,Outros alimentos,16555.43
+AG04,2025-01,Mercearia básica,90277.71
+AG04,2025-02,Mercearia básica,92936.88
+AG04,2025-03,Mercearia básica,87528.25
+AG04,2025-04,Mercearia básica,87184.67
+AG04,2025-05,Mercearia básica,91767.33
+AG04,2025-06,Mercearia básica,94761.22
+AG04,2025-07,Mercearia básica,90895.67
+AG04,2025-08,Mercearia básica,97085.21
+AG04,2025-09,Mercearia básica,94820.04
+AG04,2025-10,Mercearia básica,94749.07
+AG04,2025-11,Mercearia básica,97131.68
+AG04,2025-12,Mercearia básica,117364.64
+AG04,2025-01,Hortifruti,62318.92
+AG04,2025-02,Hortifruti,54111.88
+AG04,2025-03,Hortifruti,68219.87
+AG04,2025-04,Hortifruti,61536.97
+AG04,2025-05,Hortifruti,63302.01
+AG04,2025-06,Hortifruti,67222.0
+AG04,2025-07,Hortifruti,58114.2
+AG04,2025-08,Hortifruti,59141.96
+AG04,2025-09,Hortifruti,58117.06
+AG04,2025-10,Hortifruti,60510.46
+AG04,2025-11,Hortifruti,66935.24
+AG04,2025-12,Hortifruti,74328.5
+AG04,2025-01,Carnes e peixes,89480.7
+AG04,2025-02,Carnes e peixes,78122.46
+AG04,2025-03,Carnes e peixes,78626.13
+AG04,2025-04,Carnes e peixes,88493.3
+AG04,2025-05,Carnes e peixes,86195.71
+AG04,2025-06,Carnes e peixes,90303.71
+AG04,2025-07,Carnes e peixes,91405.61
+AG04,2025-08,Carnes e peixes,88865.26
+AG04,2025-09,Carnes e peixes,91671.9
+AG04,2025-10,Carnes e peixes,89270.38
+AG04,2025-11,Carnes e peixes,94248.33
+AG04,2025-12,Carnes e peixes,97977.46
+AG04,2025-01,Aves e ovos,27127.12
+AG04,2025-02,Aves e ovos,26260.35
+AG04,2025-03,Aves e ovos,28518.16
+AG04,2025-04,Aves e ovos,26838.23
+AG04,2025-05,Aves e ovos,28094.47
+AG04,2025-06,Aves e ovos,27010.42
+AG04,2025-07,Aves e ovos,27211.44
+AG04,2025-08,Aves e ovos,28530.98
+AG04,2025-09,Aves e ovos,24775.66
+AG04,2025-10,Aves e ovos,25653.78
+AG04,2025-11,Aves e ovos,26433.34
+AG04,2025-12,Aves e ovos,28010.96
+AG04,2025-01,Laticínios e frios,60291.91
+AG04,2025-02,Laticínios e frios,61515.52
+AG04,2025-03,Laticínios e frios,61489.53
+AG04,2025-04,Laticínios e frios,62991.55
+AG04,2025-05,Laticínios e frios,65862.68
+AG04,2025-06,Laticínios e frios,70651.85
+AG04,2025-07,Laticínios e frios,65885.81
+AG04,2025-08,Laticínios e frios,66739.06
+AG04,2025-09,Laticínios e frios,62659.63
+AG04,2025-10,Laticínios e frios,59814.09
+AG04,2025-11,Laticínios e frios,62967.06
+AG04,2025-12,Laticínios e frios,66609.43
+AG04,2025-01,Padaria e biscoitos,51083.16
+AG04,2025-02,Padaria e biscoitos,49832.51
+AG04,2025-03,Padaria e biscoitos,55592.09
+AG04,2025-04,Padaria e biscoitos,58200.86
+AG04,2025-05,Padaria e biscoitos,49836.74
+AG04,2025-06,Padaria e biscoitos,54461.99
+AG04,2025-07,Padaria e biscoitos,50695.36
+AG04,2025-08,Padaria e biscoitos,54685.38
+AG04,2025-09,Padaria e biscoitos,53053.84
+AG04,2025-10,Padaria e biscoitos,48731.05
+AG04,2025-11,Padaria e biscoitos,58177.41
+AG04,2025-12,Padaria e biscoitos,59583.19
+AG04,2025-01,Café e bebidas não alcoólicas,48790.07
+AG04,2025-02,Café e bebidas não alcoólicas,45125.2
+AG04,2025-03,Café e bebidas não alcoólicas,44904.89
+AG04,2025-04,Café e bebidas não alcoólicas,47401.57
+AG04,2025-05,Café e bebidas não alcoólicas,45961.25
+AG04,2025-06,Café e bebidas não alcoólicas,47166.97
+AG04,2025-07,Café e bebidas não alcoólicas,47245.48
+AG04,2025-08,Café e bebidas não alcoólicas,49565.44
+AG04,2025-09,Café e bebidas não alcoólicas,45609.75
+AG04,2025-10,Café e bebidas não alcoólicas,43095.47
+AG04,2025-11,Café e bebidas não alcoólicas,50898.97
+AG04,2025-12,Café e bebidas não alcoólicas,56679.32
+AG04,2025-01,Bebidas alcoólicas,26579.96
+AG04,2025-02,Bebidas alcoólicas,24344.44
+AG04,2025-03,Bebidas alcoólicas,19979.91
+AG04,2025-04,Bebidas alcoólicas,20465.14
+AG04,2025-05,Bebidas alcoólicas,22172.1
+AG04,2025-06,Bebidas alcoólicas,18965.36
+AG04,2025-07,Bebidas alcoólicas,17154.05
+AG04,2025-08,Bebidas alcoólicas,20273.08
+AG04,2025-09,Bebidas alcoólicas,21223.23
+AG04,2025-10,Bebidas alcoólicas,19278.71
+AG04,2025-11,Bebidas alcoólicas,21267.04
+AG04,2025-12,Bebidas alcoólicas,28872.7
+AG04,2025-01,Pronto para consumo,42097.24
+AG04,2025-02,Pronto para consumo,37762.82
+AG04,2025-03,Pronto para consumo,38275.44
+AG04,2025-04,Pronto para consumo,37361.39
+AG04,2025-05,Pronto para consumo,39189.85
+AG04,2025-06,Pronto para consumo,40502.07
+AG04,2025-07,Pronto para consumo,40838.58
+AG04,2025-08,Pronto para consumo,45656.61
+AG04,2025-09,Pronto para consumo,43797.93
+AG04,2025-10,Pronto para consumo,39495.32
+AG04,2025-11,Pronto para consumo,43855.19
+AG04,2025-12,Pronto para consumo,46697.7
+AG04,2025-01,Outros alimentos,45482.91
+AG04,2025-02,Outros alimentos,44235.51
+AG04,2025-03,Outros alimentos,47584.8
+AG04,2025-04,Outros alimentos,45358.24
+AG04,2025-05,Outros alimentos,48654.65
+AG04,2025-06,Outros alimentos,43573.88
+AG04,2025-07,Outros alimentos,46148.84
+AG04,2025-08,Outros alimentos,52532.84
+AG04,2025-09,Outros alimentos,46651.67
+AG04,2025-10,Outros alimentos,49561.56
+AG04,2025-11,Outros alimentos,48199.64
+AG04,2025-12,Outros alimentos,54617.57
+AG05,2025-01,Mercearia básica,69795.84
+AG05,2025-02,Mercearia básica,64317.21
+AG05,2025-03,Mercearia básica,71923.99
+AG05,2025-04,Mercearia básica,67458.86
+AG05,2025-05,Mercearia básica,72775.11
+AG05,2025-06,Mercearia básica,74318.44
+AG05,2025-07,Mercearia básica,71695.02
+AG05,2025-08,Mercearia básica,69392.74
+AG05,2025-09,Mercearia básica,72009.14
+AG05,2025-10,Mercearia básica,69314.98
+AG05,2025-11,Mercearia básica,76714.66
+AG05,2025-12,Mercearia básica,73868.49
+AG05,2025-01,Hortifruti,45681.79
+AG05,2025-02,Hortifruti,39950.7
+AG05,2025-03,Hortifruti,43108.79
+AG05,2025-04,Hortifruti,49733.22
+AG05,2025-05,Hortifruti,48581.33
+AG05,2025-06,Hortifruti,44813.35
+AG05,2025-07,Hortifruti,43092.76
+AG05,2025-08,Hortifruti,40055.01
+AG05,2025-09,Hortifruti,45209.41
+AG05,2025-10,Hortifruti,52431.15
+AG05,2025-11,Hortifruti,49375.04
+AG05,2025-12,Hortifruti,51949.05
+AG05,2025-01,Carnes e peixes,74759.69
+AG05,2025-02,Carnes e peixes,64179.49
+AG05,2025-03,Carnes e peixes,71963.48
+AG05,2025-04,Carnes e peixes,73405.49
+AG05,2025-05,Carnes e peixes,72727.52
+AG05,2025-06,Carnes e peixes,75987.22
+AG05,2025-07,Carnes e peixes,74310.86
+AG05,2025-08,Carnes e peixes,75523.3
+AG05,2025-09,Carnes e peixes,70570.08
+AG05,2025-10,Carnes e peixes,76394.88
+AG05,2025-11,Carnes e peixes,82408.82
+AG05,2025-12,Carnes e peixes,80020.22
+AG05,2025-01,Aves e ovos,20751.46
+AG05,2025-02,Aves e ovos,22032.04
+AG05,2025-03,Aves e ovos,21486.71
+AG05,2025-04,Aves e ovos,23270.64
+AG05,2025-05,Aves e ovos,21218.53
+AG05,2025-06,Aves e ovos,23330.32
+AG05,2025-07,Aves e ovos,21836.35
+AG05,2025-08,Aves e ovos,21975.17
+AG05,2025-09,Aves e ovos,23458.61
+AG05,2025-10,Aves e ovos,21304.39
+AG05,2025-11,Aves e ovos,21523.95
+AG05,2025-12,Aves e ovos,24393.95
+AG05,2025-01,Laticínios e frios,48077.26
+AG05,2025-02,Laticínios e frios,41289.63
+AG05,2025-03,Laticínios e frios,48524.37
+AG05,2025-04,Laticínios e frios,45752.85
+AG05,2025-05,Laticínios e frios,49778.51
+AG05,2025-06,Laticínios e frios,44201.05
+AG05,2025-07,Laticínios e frios,47900.85
+AG05,2025-08,Laticínios e frios,43201.24
+AG05,2025-09,Laticínios e frios,45099.95
+AG05,2025-10,Laticínios e frios,47587.78
+AG05,2025-11,Laticínios e frios,48446.11
+AG05,2025-12,Laticínios e frios,53371.97
+AG05,2025-01,Padaria e biscoitos,41676.64
+AG05,2025-02,Padaria e biscoitos,40317.11
+AG05,2025-03,Padaria e biscoitos,39943.79
+AG05,2025-04,Padaria e biscoitos,43520.95
+AG05,2025-05,Padaria e biscoitos,43424.91
+AG05,2025-06,Padaria e biscoitos,42826.28
+AG05,2025-07,Padaria e biscoitos,43195.08
+AG05,2025-08,Padaria e biscoitos,42636.93
+AG05,2025-09,Padaria e biscoitos,46509.36
+AG05,2025-10,Padaria e biscoitos,41827.13
+AG05,2025-11,Padaria e biscoitos,43024.36
+AG05,2025-12,Padaria e biscoitos,46524.8
+AG05,2025-01,Café e bebidas não alcoólicas,36200.51
+AG05,2025-02,Café e bebidas não alcoólicas,34027.52
+AG05,2025-03,Café e bebidas não alcoólicas,33760.3
+AG05,2025-04,Café e bebidas não alcoólicas,35169.93
+AG05,2025-05,Café e bebidas não alcoólicas,35889.33
+AG05,2025-06,Café e bebidas não alcoólicas,35384.8
+AG05,2025-07,Café e bebidas não alcoólicas,33969.01
+AG05,2025-08,Café e bebidas não alcoólicas,36919.3
+AG05,2025-09,Café e bebidas não alcoólicas,36623.72
+AG05,2025-10,Café e bebidas não alcoólicas,35013.82
+AG05,2025-11,Café e bebidas não alcoólicas,35527.26
+AG05,2025-12,Café e bebidas não alcoólicas,45054.36
+AG05,2025-01,Bebidas alcoólicas,18188.82
+AG05,2025-02,Bebidas alcoólicas,15922.11
+AG05,2025-03,Bebidas alcoólicas,14366.02
+AG05,2025-04,Bebidas alcoólicas,14605.04
+AG05,2025-05,Bebidas alcoólicas,13780.85
+AG05,2025-06,Bebidas alcoólicas,12369.55
+AG05,2025-07,Bebidas alcoólicas,11393.06
+AG05,2025-08,Bebidas alcoólicas,15410.89
+AG05,2025-09,Bebidas alcoólicas,15343.05
+AG05,2025-10,Bebidas alcoólicas,14234.08
+AG05,2025-11,Bebidas alcoólicas,15266.46
+AG05,2025-12,Bebidas alcoólicas,18369.18
+AG05,2025-01,Pronto para consumo,27038.21
+AG05,2025-02,Pronto para consumo,26818.34
+AG05,2025-03,Pronto para consumo,27152.3
+AG05,2025-04,Pronto para consumo,29689.34
+AG05,2025-05,Pronto para consumo,31656.17
+AG05,2025-06,Pronto para consumo,27010.82
+AG05,2025-07,Pronto para consumo,27472.77
+AG05,2025-08,Pronto para consumo,28986.81
+AG05,2025-09,Pronto para consumo,31050.79
+AG05,2025-10,Pronto para consumo,26949.09
+AG05,2025-11,Pronto para consumo,30166.77
+AG05,2025-12,Pronto para consumo,36085.65
+AG05,2025-01,Outros alimentos,32932.18
+AG05,2025-02,Outros alimentos,31870.84
+AG05,2025-03,Outros alimentos,35017.85
+AG05,2025-04,Outros alimentos,34848.46
+AG05,2025-05,Outros alimentos,37250.61
+AG05,2025-06,Outros alimentos,36202.25
+AG05,2025-07,Outros alimentos,32729.94
+AG05,2025-08,Outros alimentos,36701.18
+AG05,2025-09,Outros alimentos,34749.37
+AG05,2025-10,Outros alimentos,38120.83
+AG05,2025-11,Outros alimentos,36049.02
+AG05,2025-12,Outros alimentos,39843.91
+AG06,2025-01,Mercearia básica,59595.43
+AG06,2025-02,Mercearia básica,55731.43
+AG06,2025-03,Mercearia básica,52728.32
+AG06,2025-04,Mercearia básica,58929.06
+AG06,2025-05,Mercearia básica,54473.66
+AG06,2025-06,Mercearia básica,58043.71
+AG06,2025-07,Mercearia básica,53423.24
+AG06,2025-08,Mercearia básica,58659.45
+AG06,2025-09,Mercearia básica,55097.41
+AG06,2025-10,Mercearia básica,53801.48
+AG06,2025-11,Mercearia básica,61827.26
+AG06,2025-12,Mercearia básica,66771.53
+AG06,2025-01,Hortifruti,37896.13
+AG06,2025-02,Hortifruti,39917.44
+AG06,2025-03,Hortifruti,38225.97
+AG06,2025-04,Hortifruti,39140.32
+AG06,2025-05,Hortifruti,39606.51
+AG06,2025-06,Hortifruti,37885.35
+AG06,2025-07,Hortifruti,40009.0
+AG06,2025-08,Hortifruti,38049.01
+AG06,2025-09,Hortifruti,38281.46
+AG06,2025-10,Hortifruti,41832.76
+AG06,2025-11,Hortifruti,38580.2
+AG06,2025-12,Hortifruti,39832.0
+AG06,2025-01,Carnes e peixes,63176.89
+AG06,2025-02,Carnes e peixes,62901.17
+AG06,2025-03,Carnes e peixes,57118.51
+AG06,2025-04,Carnes e peixes,52907.75
+AG06,2025-05,Carnes e peixes,57389.85
+AG06,2025-06,Carnes e peixes,57459.51
+AG06,2025-07,Carnes e peixes,57736.84
+AG06,2025-08,Carnes e peixes,55131.56
+AG06,2025-09,Carnes e peixes,60001.51
+AG06,2025-10,Carnes e peixes,59836.57
+AG06,2025-11,Carnes e peixes,56254.84
+AG06,2025-12,Carnes e peixes,69415.73
+AG06,2025-01,Aves e ovos,19208.17
+AG06,2025-02,Aves e ovos,16610.02
+AG06,2025-03,Aves e ovos,17044.63
+AG06,2025-04,Aves e ovos,17211.9
+AG06,2025-05,Aves e ovos,17876.09
+AG06,2025-06,Aves e ovos,15897.6
+AG06,2025-07,Aves e ovos,17477.62
+AG06,2025-08,Aves e ovos,16999.4
+AG06,2025-09,Aves e ovos,19012.42
+AG06,2025-10,Aves e ovos,17184.24
+AG06,2025-11,Aves e ovos,19595.83
+AG06,2025-12,Aves e ovos,18864.4
+AG06,2025-01,Laticínios e frios,40017.21
+AG06,2025-02,Laticínios e frios,37510.59
+AG06,2025-03,Laticínios e frios,37206.9
+AG06,2025-04,Laticínios e frios,39205.48
+AG06,2025-05,Laticínios e frios,41288.03
+AG06,2025-06,Laticínios e frios,40529.33
+AG06,2025-07,Laticínios e frios,37849.49
+AG06,2025-08,Laticínios e frios,38825.16
+AG06,2025-09,Laticínios e frios,37144.86
+AG06,2025-10,Laticínios e frios,38199.77
+AG06,2025-11,Laticínios e frios,40249.11
+AG06,2025-12,Laticínios e frios,41035.03
+AG06,2025-01,Padaria e biscoitos,31205.16
+AG06,2025-02,Padaria e biscoitos,32923.16
+AG06,2025-03,Padaria e biscoitos,32957.88
+AG06,2025-04,Padaria e biscoitos,29758.93
+AG06,2025-05,Padaria e biscoitos,35184.6
+AG06,2025-06,Padaria e biscoitos,34294.49
+AG06,2025-07,Padaria e biscoitos,32644.38
+AG06,2025-08,Padaria e biscoitos,31674.91
+AG06,2025-09,Padaria e biscoitos,35274.37
+AG06,2025-10,Padaria e biscoitos,34426.75
+AG06,2025-11,Padaria e biscoitos,39635.18
+AG06,2025-12,Padaria e biscoitos,39731.24
+AG06,2025-01,Café e bebidas não alcoólicas,33809.82
+AG06,2025-02,Café e bebidas não alcoólicas,31240.85
+AG06,2025-03,Café e bebidas não alcoólicas,31984.26
+AG06,2025-04,Café e bebidas não alcoólicas,31679.17
+AG06,2025-05,Café e bebidas não alcoólicas,32687.46
+AG06,2025-06,Café e bebidas não alcoólicas,29914.37
+AG06,2025-07,Café e bebidas não alcoólicas,30043.15
+AG06,2025-08,Café e bebidas não alcoólicas,29977.59
+AG06,2025-09,Café e bebidas não alcoólicas,31942.75
+AG06,2025-10,Café e bebidas não alcoólicas,33093.07
+AG06,2025-11,Café e bebidas não alcoólicas,31208.29
+AG06,2025-12,Café e bebidas não alcoólicas,37333.44
+AG06,2025-01,Bebidas alcoólicas,15457.8
+AG06,2025-02,Bebidas alcoólicas,14279.55
+AG06,2025-03,Bebidas alcoólicas,12767.07
+AG06,2025-04,Bebidas alcoólicas,10877.29
+AG06,2025-05,Bebidas alcoólicas,11680.62
+AG06,2025-06,Bebidas alcoólicas,9950.54
+AG06,2025-07,Bebidas alcoólicas,9214.05
+AG06,2025-08,Bebidas alcoólicas,11600.92
+AG06,2025-09,Bebidas alcoólicas,11629.08
+AG06,2025-10,Bebidas alcoólicas,12051.77
+AG06,2025-11,Bebidas alcoólicas,13385.01
+AG06,2025-12,Bebidas alcoólicas,17286.38
+AG06,2025-01,Pronto para consumo,26651.02
+AG06,2025-02,Pronto para consumo,26581.81
+AG06,2025-03,Pronto para consumo,29571.96
+AG06,2025-04,Pronto para consumo,26724.22
+AG06,2025-05,Pronto para consumo,26811.73
+AG06,2025-06,Pronto para consumo,28855.35
+AG06,2025-07,Pronto para consumo,27751.54
+AG06,2025-08,Pronto para consumo,28983.95
+AG06,2025-09,Pronto para consumo,28041.5
+AG06,2025-10,Pronto para consumo,29062.57
+AG06,2025-11,Pronto para consumo,27711.15
+AG06,2025-12,Pronto para consumo,32250.25
+AG06,2025-01,Outros alimentos,27463.84
+AG06,2025-02,Outros alimentos,24811.74
+AG06,2025-03,Outros alimentos,25667.63
+AG06,2025-04,Outros alimentos,28722.83
+AG06,2025-05,Outros alimentos,27271.91
+AG06,2025-06,Outros alimentos,26371.68
+AG06,2025-07,Outros alimentos,27621.54
+AG06,2025-08,Outros alimentos,29365.06
+AG06,2025-09,Outros alimentos,24763.43
+AG06,2025-10,Outros alimentos,25753.56
+AG06,2025-11,Outros alimentos,27563.19
+AG06,2025-12,Outros alimentos,34337.07
+AG07,2025-01,Mercearia básica,40179.78
+AG07,2025-02,Mercearia básica,34698.51
+AG07,2025-03,Mercearia básica,36562.43
+AG07,2025-04,Mercearia básica,39543.0
+AG07,2025-05,Mercearia básica,38780.27
+AG07,2025-06,Mercearia básica,39743.05
+AG07,2025-07,Mercearia básica,38306.3
+AG07,2025-08,Mercearia básica,39208.95
+AG07,2025-09,Mercearia básica,38974.36
+AG07,2025-10,Mercearia básica,40200.78
+AG07,2025-11,Mercearia básica,41869.98
+AG07,2025-12,Mercearia básica,41007.96
+AG07,2025-01,Hortifruti,23258.85
+AG07,2025-02,Hortifruti,25993.42
+AG07,2025-03,Hortifruti,27617.11
+AG07,2025-04,Hortifruti,24730.03
+AG07,2025-05,Hortifruti,23713.81
+AG07,2025-06,Hortifruti,26153.97
+AG07,2025-07,Hortifruti,27264.66
+AG07,2025-08,Hortifruti,28472.23
+AG07,2025-09,Hortifruti,26705.36
+AG07,2025-10,Hortifruti,25545.56
+AG07,2025-11,Hortifruti,25883.7
+AG07,2025-12,Hortifruti,29945.64
+AG07,2025-01,Carnes e peixes,39289.66
+AG07,2025-02,Carnes e peixes,36012.93
+AG07,2025-03,Carnes e peixes,44183.99
+AG07,2025-04,Carnes e peixes,43605.49
+AG07,2025-05,Carnes e peixes,42212.96
+AG07,2025-06,Carnes e peixes,38087.35
+AG07,2025-07,Carnes e peixes,41623.95
+AG07,2025-08,Carnes e peixes,41178.08
+AG07,2025-09,Carnes e peixes,40774.3
+AG07,2025-10,Carnes e peixes,42453.44
+AG07,2025-11,Carnes e peixes,42816.09
+AG07,2025-12,Carnes e peixes,47593.08
+AG07,2025-01,Aves e ovos,12148.08
+AG07,2025-02,Aves e ovos,11371.07
+AG07,2025-03,Aves e ovos,10763.33
+AG07,2025-04,Aves e ovos,11816.62
+AG07,2025-05,Aves e ovos,11444.58
+AG07,2025-06,Aves e ovos,11037.89
+AG07,2025-07,Aves e ovos,12799.63
+AG07,2025-08,Aves e ovos,12829.86
+AG07,2025-09,Aves e ovos,12594.83
+AG07,2025-10,Aves e ovos,11918.44
+AG07,2025-11,Aves e ovos,13093.0
+AG07,2025-12,Aves e ovos,13540.57
+AG07,2025-01,Laticínios e frios,26385.27
+AG07,2025-02,Laticínios e frios,23492.93
+AG07,2025-03,Laticínios e frios,26642.72
+AG07,2025-04,Laticínios e frios,26198.06
+AG07,2025-05,Laticínios e frios,24472.1
+AG07,2025-06,Laticínios e frios,27615.45
+AG07,2025-07,Laticínios e frios,27576.08
+AG07,2025-08,Laticínios e frios,28575.34
+AG07,2025-09,Laticínios e frios,27313.38
+AG07,2025-10,Laticínios e frios,26134.03
+AG07,2025-11,Laticínios e frios,27503.86
+AG07,2025-12,Laticínios e frios,30103.42
+AG07,2025-01,Padaria e biscoitos,22771.05
+AG07,2025-02,Padaria e biscoitos,20701.81
+AG07,2025-03,Padaria e biscoitos,22830.17
+AG07,2025-04,Padaria e biscoitos,22160.93
+AG07,2025-05,Padaria e biscoitos,21609.21
+AG07,2025-06,Padaria e biscoitos,23598.82
+AG07,2025-07,Padaria e biscoitos,23457.7
+AG07,2025-08,Padaria e biscoitos,21037.37
+AG07,2025-09,Padaria e biscoitos,22862.58
+AG07,2025-10,Padaria e biscoitos,24177.46
+AG07,2025-11,Padaria e biscoitos,25224.54
+AG07,2025-12,Padaria e biscoitos,27846.0
+AG07,2025-01,Café e bebidas não alcoólicas,22692.03
+AG07,2025-02,Café e bebidas não alcoólicas,20625.38
+AG07,2025-03,Café e bebidas não alcoólicas,19864.26
+AG07,2025-04,Café e bebidas não alcoólicas,21334.75
+AG07,2025-05,Café e bebidas não alcoólicas,21371.77
+AG07,2025-06,Café e bebidas não alcoólicas,22364.47
+AG07,2025-07,Café e bebidas não alcoólicas,22155.95
+AG07,2025-08,Café e bebidas não alcoólicas,20832.11
+AG07,2025-09,Café e bebidas não alcoólicas,19705.48
+AG07,2025-10,Café e bebidas não alcoólicas,20638.36
+AG07,2025-11,Café e bebidas não alcoólicas,22047.28
+AG07,2025-12,Café e bebidas não alcoólicas,25783.27
+AG07,2025-01,Bebidas alcoólicas,9810.02
+AG07,2025-02,Bebidas alcoólicas,9714.79
+AG07,2025-03,Bebidas alcoólicas,7877.08
+AG07,2025-04,Bebidas alcoólicas,7828.35
+AG07,2025-05,Bebidas alcoólicas,8204.87
+AG07,2025-06,Bebidas alcoólicas,6729.74
+AG07,2025-07,Bebidas alcoólicas,6950.69
+AG07,2025-08,Bebidas alcoólicas,8189.19
+AG07,2025-09,Bebidas alcoólicas,7630.73
+AG07,2025-10,Bebidas alcoólicas,7886.03
+AG07,2025-11,Bebidas alcoólicas,9027.4
+AG07,2025-12,Bebidas alcoólicas,10956.76
+AG07,2025-01,Pronto para consumo,17996.02
+AG07,2025-02,Pronto para consumo,17315.43
+AG07,2025-03,Pronto para consumo,20034.16
+AG07,2025-04,Pronto para consumo,20035.97
+AG07,2025-05,Pronto para consumo,19887.73
+AG07,2025-06,Pronto para consumo,21257.14
+AG07,2025-07,Pronto para consumo,17502.46
+AG07,2025-08,Pronto para consumo,20405.0
+AG07,2025-09,Pronto para consumo,21629.44
+AG07,2025-10,Pronto para consumo,18908.17
+AG07,2025-11,Pronto para consumo,20413.85
+AG07,2025-12,Pronto para consumo,22155.83
+AG07,2025-01,Outros alimentos,17983.27
+AG07,2025-02,Outros alimentos,17576.33
+AG07,2025-03,Outros alimentos,20196.99
+AG07,2025-04,Outros alimentos,20615.2
+AG07,2025-05,Outros alimentos,18492.45
+AG07,2025-06,Outros alimentos,20685.08
+AG07,2025-07,Outros alimentos,18839.17
+AG07,2025-08,Outros alimentos,20529.11
+AG07,2025-09,Outros alimentos,18718.17
+AG07,2025-10,Outros alimentos,18929.33
+AG07,2025-11,Outros alimentos,19918.6
+AG07,2025-12,Outros alimentos,25352.16
+AG08,2025-01,Mercearia básica,43084.39
+AG08,2025-02,Mercearia básica,44508.52
+AG08,2025-03,Mercearia básica,43834.99
+AG08,2025-04,Mercearia básica,43555.52
+AG08,2025-05,Mercearia básica,46709.8
+AG08,2025-06,Mercearia básica,44704.68
+AG08,2025-07,Mercearia básica,45261.32
+AG08,2025-08,Mercearia básica,44666.48
+AG08,2025-09,Mercearia básica,45392.78
+AG08,2025-10,Mercearia básica,45593.82
+AG08,2025-11,Mercearia básica,42135.74
+AG08,2025-12,Mercearia básica,53070.15
+AG08,2025-01,Hortifruti,28845.3
+AG08,2025-02,Hortifruti,26779.58
+AG08,2025-03,Hortifruti,30208.62
+AG08,2025-04,Hortifruti,30424.46
+AG08,2025-05,Hortifruti,29264.43
+AG08,2025-06,Hortifruti,31582.39
+AG08,2025-07,Hortifruti,28330.51
+AG08,2025-08,Hortifruti,29686.75
+AG08,2025-09,Hortifruti,29423.81
+AG08,2025-10,Hortifruti,30226.49
+AG08,2025-11,Hortifruti,31951.27
+AG08,2025-12,Hortifruti,33129.21
+AG08,2025-01,Carnes e peixes,45175.04
+AG08,2025-02,Carnes e peixes,41520.51
+AG08,2025-03,Carnes e peixes,39635.82
+AG08,2025-04,Carnes e peixes,39503.97
+AG08,2025-05,Carnes e peixes,43541.51
+AG08,2025-06,Carnes e peixes,43089.63
+AG08,2025-07,Carnes e peixes,43343.62
+AG08,2025-08,Carnes e peixes,43507.42
+AG08,2025-09,Carnes e peixes,44062.48
+AG08,2025-10,Carnes e peixes,45682.4
+AG08,2025-11,Carnes e peixes,42862.45
+AG08,2025-12,Carnes e peixes,47251.95
+AG08,2025-01,Aves e ovos,12740.44
+AG08,2025-02,Aves e ovos,12969.49
+AG08,2025-03,Aves e ovos,14320.54
+AG08,2025-04,Aves e ovos,13169.19
+AG08,2025-05,Aves e ovos,11874.13
+AG08,2025-06,Aves e ovos,12357.31
+AG08,2025-07,Aves e ovos,12907.33
+AG08,2025-08,Aves e ovos,13086.23
+AG08,2025-09,Aves e ovos,13184.32
+AG08,2025-10,Aves e ovos,13482.28
+AG08,2025-11,Aves e ovos,13778.1
+AG08,2025-12,Aves e ovos,16308.33
+AG08,2025-01,Laticínios e frios,29150.17
+AG08,2025-02,Laticínios e frios,27435.91
+AG08,2025-03,Laticínios e frios,30882.99
+AG08,2025-04,Laticínios e frios,27923.81
+AG08,2025-05,Laticínios e frios,30745.58
+AG08,2025-06,Laticínios e frios,32125.76
+AG08,2025-07,Laticínios e frios,31726.7
+AG08,2025-08,Laticínios e frios,32644.47
+AG08,2025-09,Laticínios e frios,29228.71
+AG08,2025-10,Laticínios e frios,33424.08
+AG08,2025-11,Laticínios e frios,31006.94
+AG08,2025-12,Laticínios e frios,32530.33
+AG08,2025-01,Padaria e biscoitos,25990.56
+AG08,2025-02,Padaria e biscoitos,23315.82
+AG08,2025-03,Padaria e biscoitos,24944.41
+AG08,2025-04,Padaria e biscoitos,26419.15
+AG08,2025-05,Padaria e biscoitos,26629.42
+AG08,2025-06,Padaria e biscoitos,25106.56
+AG08,2025-07,Padaria e biscoitos,27210.63
+AG08,2025-08,Padaria e biscoitos,27443.05
+AG08,2025-09,Padaria e biscoitos,27828.28
+AG08,2025-10,Padaria e biscoitos,26594.6
+AG08,2025-11,Padaria e biscoitos,28836.15
+AG08,2025-12,Padaria e biscoitos,27111.54
+AG08,2025-01,Café e bebidas não alcoólicas,27831.39
+AG08,2025-02,Café e bebidas não alcoólicas,25723.79
+AG08,2025-03,Café e bebidas não alcoólicas,26339.24
+AG08,2025-04,Café e bebidas não alcoólicas,25445.18
+AG08,2025-05,Café e bebidas não alcoólicas,25966.07
+AG08,2025-06,Café e bebidas não alcoólicas,28766.38
+AG08,2025-07,Café e bebidas não alcoólicas,25961.45
+AG08,2025-08,Café e bebidas não alcoólicas,26730.05
+AG08,2025-09,Café e bebidas não alcoólicas,25880.38
+AG08,2025-10,Café e bebidas não alcoólicas,26282.0
+AG08,2025-11,Café e bebidas não alcoólicas,27238.2
+AG08,2025-12,Café e bebidas não alcoólicas,33256.09
+AG08,2025-01,Bebidas alcoólicas,13361.9
+AG08,2025-02,Bebidas alcoólicas,13003.5
+AG08,2025-03,Bebidas alcoólicas,10241.82
+AG08,2025-04,Bebidas alcoólicas,10386.18
+AG08,2025-05,Bebidas alcoólicas,9520.58
+AG08,2025-06,Bebidas alcoólicas,8534.24
+AG08,2025-07,Bebidas alcoólicas,8984.44
+AG08,2025-08,Bebidas alcoólicas,10530.72
+AG08,2025-09,Bebidas alcoólicas,10191.75
+AG08,2025-10,Bebidas alcoólicas,10541.48
+AG08,2025-11,Bebidas alcoólicas,10748.41
+AG08,2025-12,Bebidas alcoólicas,15393.1
+AG08,2025-01,Pronto para consumo,32329.89
+AG08,2025-02,Pronto para consumo,29738.61
+AG08,2025-03,Pronto para consumo,32405.12
+AG08,2025-04,Pronto para consumo,27522.25
+AG08,2025-05,Pronto para consumo,32481.43
+AG08,2025-06,Pronto para consumo,26551.96
+AG08,2025-07,Pronto para consumo,29234.55
+AG08,2025-08,Pronto para consumo,32593.5
+AG08,2025-09,Pronto para consumo,32635.5
+AG08,2025-10,Pronto para consumo,30066.24
+AG08,2025-11,Pronto para consumo,31980.93
+AG08,2025-12,Pronto para consumo,39244.58
+AG08,2025-01,Outros alimentos,22960.99
+AG08,2025-02,Outros alimentos,24999.38
+AG08,2025-03,Outros alimentos,23521.2
+AG08,2025-04,Outros alimentos,24008.31
+AG08,2025-05,Outros alimentos,25504.17
+AG08,2025-06,Outros alimentos,23678.07
+AG08,2025-07,Outros alimentos,22373.58
+AG08,2025-08,Outros alimentos,23394.75
+AG08,2025-09,Outros alimentos,23481.61
+AG08,2025-10,Outros alimentos,21971.83
+AG08,2025-11,Outros alimentos,24153.45
+AG08,2025-12,Outros alimentos,26066.49
+AG09,2025-01,Mercearia básica,43381.58
+AG09,2025-02,Mercearia básica,40563.61
+AG09,2025-03,Mercearia básica,43077.26
+AG09,2025-04,Mercearia básica,43792.41
+AG09,2025-05,Mercearia básica,44662.99
+AG09,2025-06,Mercearia básica,41195.08
+AG09,2025-07,Mercearia básica,41108.92
+AG09,2025-08,Mercearia básica,45765.86
+AG09,2025-09,Mercearia básica,42422.87
+AG09,2025-10,Mercearia básica,40344.79
+AG09,2025-11,Mercearia básica,46049.45
+AG09,2025-12,Mercearia básica,50969.88
+AG09,2025-01,Hortifruti,25568.41
+AG09,2025-02,Hortifruti,26524.64
+AG09,2025-03,Hortifruti,28636.22
+AG09,2025-04,Hortifruti,28123.7
+AG09,2025-05,Hortifruti,28488.27
+AG09,2025-06,Hortifruti,25730.57
+AG09,2025-07,Hortifruti,28062.81
+AG09,2025-08,Hortifruti,27187.64
+AG09,2025-09,Hortifruti,26943.82
+AG09,2025-10,Hortifruti,28830.13
+AG09,2025-11,Hortifruti,30909.94
+AG09,2025-12,Hortifruti,34722.01
+AG09,2025-01,Carnes e peixes,48983.52
+AG09,2025-02,Carnes e peixes,43335.12
+AG09,2025-03,Carnes e peixes,46682.97
+AG09,2025-04,Carnes e peixes,47659.63
+AG09,2025-05,Carnes e peixes,46145.63
+AG09,2025-06,Carnes e peixes,46167.76
+AG09,2025-07,Carnes e peixes,47795.48
+AG09,2025-08,Carnes e peixes,45731.13
+AG09,2025-09,Carnes e peixes,44224.51
+AG09,2025-10,Carnes e peixes,44926.14
+AG09,2025-11,Carnes e peixes,49237.71
+AG09,2025-12,Carnes e peixes,52754.82
+AG09,2025-01,Aves e ovos,13813.44
+AG09,2025-02,Aves e ovos,13341.0
+AG09,2025-03,Aves e ovos,13328.3
+AG09,2025-04,Aves e ovos,14103.8
+AG09,2025-05,Aves e ovos,13840.15
+AG09,2025-06,Aves e ovos,12767.35
+AG09,2025-07,Aves e ovos,14595.99
+AG09,2025-08,Aves e ovos,13244.66
+AG09,2025-09,Aves e ovos,12501.85
+AG09,2025-10,Aves e ovos,12889.07
+AG09,2025-11,Aves e ovos,13420.72
+AG09,2025-12,Aves e ovos,15658.32
+AG09,2025-01,Laticínios e frios,27890.16
+AG09,2025-02,Laticínios e frios,26412.35
+AG09,2025-03,Laticínios e frios,29164.48
+AG09,2025-04,Laticínios e frios,28759.27
+AG09,2025-05,Laticínios e frios,28725.03
+AG09,2025-06,Laticínios e frios,30591.64
+AG09,2025-07,Laticínios e frios,30908.84
+AG09,2025-08,Laticínios e frios,25446.26
+AG09,2025-09,Laticínios e frios,27764.12
+AG09,2025-10,Laticínios e frios,25354.5
+AG09,2025-11,Laticínios e frios,29458.73
+AG09,2025-12,Laticínios e frios,32508.35
+AG09,2025-01,Padaria e biscoitos,27300.76
+AG09,2025-02,Padaria e biscoitos,26120.65
+AG09,2025-03,Padaria e biscoitos,26174.26
+AG09,2025-04,Padaria e biscoitos,25270.05
+AG09,2025-05,Padaria e biscoitos,26546.45
+AG09,2025-06,Padaria e biscoitos,25235.26
+AG09,2025-07,Padaria e biscoitos,25908.43
+AG09,2025-08,Padaria e biscoitos,27219.8
+AG09,2025-09,Padaria e biscoitos,25197.61
+AG09,2025-10,Padaria e biscoitos,26975.31
+AG09,2025-11,Padaria e biscoitos,27874.96
+AG09,2025-12,Padaria e biscoitos,28407.7
+AG09,2025-01,Café e bebidas não alcoólicas,27290.56
+AG09,2025-02,Café e bebidas não alcoólicas,25571.57
+AG09,2025-03,Café e bebidas não alcoólicas,24191.02
+AG09,2025-04,Café e bebidas não alcoólicas,23167.93
+AG09,2025-05,Café e bebidas não alcoólicas,23055.97
+AG09,2025-06,Café e bebidas não alcoólicas,23429.64
+AG09,2025-07,Café e bebidas não alcoólicas,24729.94
+AG09,2025-08,Café e bebidas não alcoólicas,22945.08
+AG09,2025-09,Café e bebidas não alcoólicas,24600.35
+AG09,2025-10,Café e bebidas não alcoólicas,22619.16
+AG09,2025-11,Café e bebidas não alcoólicas,24776.67
+AG09,2025-12,Café e bebidas não alcoólicas,30056.84
+AG09,2025-01,Bebidas alcoólicas,11992.08
+AG09,2025-02,Bebidas alcoólicas,9410.55
+AG09,2025-03,Bebidas alcoólicas,9138.05
+AG09,2025-04,Bebidas alcoólicas,8553.48
+AG09,2025-05,Bebidas alcoólicas,8665.98
+AG09,2025-06,Bebidas alcoólicas,7259.02
+AG09,2025-07,Bebidas alcoólicas,7378.45
+AG09,2025-08,Bebidas alcoólicas,8424.65
+AG09,2025-09,Bebidas alcoólicas,9129.85
+AG09,2025-10,Bebidas alcoólicas,8298.07
+AG09,2025-11,Bebidas alcoólicas,9343.48
+AG09,2025-12,Bebidas alcoólicas,11816.93
+AG09,2025-01,Pronto para consumo,24455.93
+AG09,2025-02,Pronto para consumo,22087.1
+AG09,2025-03,Pronto para consumo,25094.19
+AG09,2025-04,Pronto para consumo,26367.75
+AG09,2025-05,Pronto para consumo,24435.02
+AG09,2025-06,Pronto para consumo,24289.42
+AG09,2025-07,Pronto para consumo,23200.05
+AG09,2025-08,Pronto para consumo,24250.1
+AG09,2025-09,Pronto para consumo,22651.94
+AG09,2025-10,Pronto para consumo,23435.25
+AG09,2025-11,Pronto para consumo,25801.82
+AG09,2025-12,Pronto para consumo,30132.3
+AG09,2025-01,Outros alimentos,26520.82
+AG09,2025-02,Outros alimentos,21260.42
+AG09,2025-03,Outros alimentos,24760.13
+AG09,2025-04,Outros alimentos,23328.07
+AG09,2025-05,Outros alimentos,22871.86
+AG09,2025-06,Outros alimentos,23549.38
+AG09,2025-07,Outros alimentos,23116.94
+AG09,2025-08,Outros alimentos,23173.04
+AG09,2025-09,Outros alimentos,22579.74
+AG09,2025-10,Outros alimentos,21489.5
+AG09,2025-11,Outros alimentos,22187.06
+AG09,2025-12,Outros alimentos,27382.22
+AG10,2025-01,Mercearia básica,83397.22
+AG10,2025-02,Mercearia básica,81658.95
+AG10,2025-03,Mercearia básica,89404.05
+AG10,2025-04,Mercearia básica,86698.59
+AG10,2025-05,Mercearia básica,83147.54
+AG10,2025-06,Mercearia básica,91353.27
+AG10,2025-07,Mercearia básica,92979.47
+AG10,2025-08,Mercearia básica,88071.35
+AG10,2025-09,Mercearia básica,90206.6
+AG10,2025-10,Mercearia básica,91424.86
+AG10,2025-11,Mercearia básica,94551.54
+AG10,2025-12,Mercearia básica,101889.24
+AG10,2025-01,Hortifruti,62014.85
+AG10,2025-02,Hortifruti,58682.78
+AG10,2025-03,Hortifruti,56973.7
+AG10,2025-04,Hortifruti,62333.11
+AG10,2025-05,Hortifruti,56242.12
+AG10,2025-06,Hortifruti,57842.66
+AG10,2025-07,Hortifruti,64240.56
+AG10,2025-08,Hortifruti,62769.39
+AG10,2025-09,Hortifruti,64833.76
+AG10,2025-10,Hortifruti,59374.98
+AG10,2025-11,Hortifruti,59090.19
+AG10,2025-12,Hortifruti,68387.95
+AG10,2025-01,Carnes e peixes,83476.63
+AG10,2025-02,Carnes e peixes,79211.49
+AG10,2025-03,Carnes e peixes,87895.55
+AG10,2025-04,Carnes e peixes,81565.11
+AG10,2025-05,Carnes e peixes,84526.65
+AG10,2025-06,Carnes e peixes,79046.3
+AG10,2025-07,Carnes e peixes,84943.05
+AG10,2025-08,Carnes e peixes,83064.76
+AG10,2025-09,Carnes e peixes,79995.83
+AG10,2025-10,Carnes e peixes,82078.3
+AG10,2025-11,Carnes e peixes,85582.18
+AG10,2025-12,Carnes e peixes,94228.19
+AG10,2025-01,Aves e ovos,28532.68
+AG10,2025-02,Aves e ovos,24686.77
+AG10,2025-03,Aves e ovos,25797.78
+AG10,2025-04,Aves e ovos,23514.34
+AG10,2025-05,Aves e ovos,24972.44
+AG10,2025-06,Aves e ovos,25773.05
+AG10,2025-07,Aves e ovos,25233.95
+AG10,2025-08,Aves e ovos,27982.2
+AG10,2025-09,Aves e ovos,25899.82
+AG10,2025-10,Aves e ovos,27852.01
+AG10,2025-11,Aves e ovos,27242.79
+AG10,2025-12,Aves e ovos,30087.4
+AG10,2025-01,Laticínios e frios,59602.56
+AG10,2025-02,Laticínios e frios,56885.18
+AG10,2025-03,Laticínios e frios,65240.35
+AG10,2025-04,Laticínios e frios,53311.81
+AG10,2025-05,Laticínios e frios,54166.42
+AG10,2025-06,Laticínios e frios,61759.56
+AG10,2025-07,Laticínios e frios,63505.96
+AG10,2025-08,Laticínios e frios,61969.58
+AG10,2025-09,Laticínios e frios,61300.79
+AG10,2025-10,Laticínios e frios,58728.56
+AG10,2025-11,Laticínios e frios,65517.11
+AG10,2025-12,Laticínios e frios,72487.21
+AG10,2025-01,Padaria e biscoitos,52040.64
+AG10,2025-02,Padaria e biscoitos,51401.21
+AG10,2025-03,Padaria e biscoitos,52271.66
+AG10,2025-04,Padaria e biscoitos,50136.43
+AG10,2025-05,Padaria e biscoitos,53394.77
+AG10,2025-06,Padaria e biscoitos,51849.88
+AG10,2025-07,Padaria e biscoitos,51567.37
+AG10,2025-08,Padaria e biscoitos,55504.81
+AG10,2025-09,Padaria e biscoitos,45616.91
+AG10,2025-10,Padaria e biscoitos,48035.38
+AG10,2025-11,Padaria e biscoitos,50536.17
+AG10,2025-12,Padaria e biscoitos,58231.18
+AG10,2025-01,Café e bebidas não alcoólicas,46227.73
+AG10,2025-02,Café e bebidas não alcoólicas,41249.98
+AG10,2025-03,Café e bebidas não alcoólicas,41268.16
+AG10,2025-04,Café e bebidas não alcoólicas,41525.47
+AG10,2025-05,Café e bebidas não alcoólicas,49019.6
+AG10,2025-06,Café e bebidas não alcoólicas,47438.6
+AG10,2025-07,Café e bebidas não alcoólicas,42468.46
+AG10,2025-08,Café e bebidas não alcoólicas,42570.86
+AG10,2025-09,Café e bebidas não alcoólicas,40931.05
+AG10,2025-10,Café e bebidas não alcoólicas,39406.97
+AG10,2025-11,Café e bebidas não alcoólicas,44823.2
+AG10,2025-12,Café e bebidas não alcoólicas,51222.53
+AG10,2025-01,Bebidas alcoólicas,23133.66
+AG10,2025-02,Bebidas alcoólicas,20373.35
+AG10,2025-03,Bebidas alcoólicas,17890.84
+AG10,2025-04,Bebidas alcoólicas,18724.24
+AG10,2025-05,Bebidas alcoólicas,18929.05
+AG10,2025-06,Bebidas alcoólicas,16130.99
+AG10,2025-07,Bebidas alcoólicas,14788.42
+AG10,2025-08,Bebidas alcoólicas,19397.07
+AG10,2025-09,Bebidas alcoólicas,17856.67
+AG10,2025-10,Bebidas alcoólicas,19183.11
+AG10,2025-11,Bebidas alcoólicas,19318.75
+AG10,2025-12,Bebidas alcoólicas,24940.02
+AG10,2025-01,Pronto para consumo,35949.83
+AG10,2025-02,Pronto para consumo,35336.24
+AG10,2025-03,Pronto para consumo,37659.39
+AG10,2025-04,Pronto para consumo,36266.15
+AG10,2025-05,Pronto para consumo,39429.85
+AG10,2025-06,Pronto para consumo,38409.69
+AG10,2025-07,Pronto para consumo,36057.01
+AG10,2025-08,Pronto para consumo,37918.54
+AG10,2025-09,Pronto para consumo,40230.43
+AG10,2025-10,Pronto para consumo,40284.16
+AG10,2025-11,Pronto para consumo,35721.57
+AG10,2025-12,Pronto para consumo,40099.72
+AG10,2025-01,Outros alimentos,46819.82
+AG10,2025-02,Outros alimentos,39167.74
+AG10,2025-03,Outros alimentos,40688.02
+AG10,2025-04,Outros alimentos,42425.56
+AG10,2025-05,Outros alimentos,44392.57
+AG10,2025-06,Outros alimentos,43247.56
+AG10,2025-07,Outros alimentos,42078.32
+AG10,2025-08,Outros alimentos,42028.59
+AG10,2025-09,Outros alimentos,41948.55
+AG10,2025-10,Outros alimentos,41599.38
+AG10,2025-11,Outros alimentos,50671.47
+AG10,2025-12,Outros alimentos,50739.17
+AG11,2025-01,Mercearia básica,53373.3
+AG11,2025-02,Mercearia básica,51478.97
+AG11,2025-03,Mercearia básica,52777.6
+AG11,2025-04,Mercearia básica,47903.05
+AG11,2025-05,Mercearia básica,51052.99
+AG11,2025-06,Mercearia básica,49960.55
+AG11,2025-07,Mercearia básica,48875.46
+AG11,2025-08,Mercearia básica,51521.37
+AG11,2025-09,Mercearia básica,58440.69
+AG11,2025-10,Mercearia básica,54573.19
+AG11,2025-11,Mercearia básica,60673.89
+AG11,2025-12,Mercearia básica,64204.65
+AG11,2025-01,Hortifruti,38321.18
+AG11,2025-02,Hortifruti,33466.23
+AG11,2025-03,Hortifruti,37828.87
+AG11,2025-04,Hortifruti,38218.15
+AG11,2025-05,Hortifruti,35803.39
+AG11,2025-06,Hortifruti,37896.24
+AG11,2025-07,Hortifruti,37908.84
+AG11,2025-08,Hortifruti,35851.93
+AG11,2025-09,Hortifruti,34838.97
+AG11,2025-10,Hortifruti,34732.24
+AG11,2025-11,Hortifruti,38490.86
+AG11,2025-12,Hortifruti,43076.92
+AG11,2025-01,Carnes e peixes,53468.68
+AG11,2025-02,Carnes e peixes,52918.78
+AG11,2025-03,Carnes e peixes,57239.78
+AG11,2025-04,Carnes e peixes,57376.33
+AG11,2025-05,Carnes e peixes,60118.42
+AG11,2025-06,Carnes e peixes,59297.75
+AG11,2025-07,Carnes e peixes,52913.46
+AG11,2025-08,Carnes e peixes,60515.62
+AG11,2025-09,Carnes e peixes,54172.5
+AG11,2025-10,Carnes e peixes,58613.55
+AG11,2025-11,Carnes e peixes,58052.18
+AG11,2025-12,Carnes e peixes,62669.62
+AG11,2025-01,Aves e ovos,15254.18
+AG11,2025-02,Aves e ovos,15726.81
+AG11,2025-03,Aves e ovos,15444.75
+AG11,2025-04,Aves e ovos,17524.56
+AG11,2025-05,Aves e ovos,18012.71
+AG11,2025-06,Aves e ovos,16044.92
+AG11,2025-07,Aves e ovos,16951.17
+AG11,2025-08,Aves e ovos,16102.4
+AG11,2025-09,Aves e ovos,16180.61
+AG11,2025-10,Aves e ovos,17356.43
+AG11,2025-11,Aves e ovos,17331.61
+AG11,2025-12,Aves e ovos,20946.73
+AG11,2025-01,Laticínios e frios,36144.52
+AG11,2025-02,Laticínios e frios,36977.53
+AG11,2025-03,Laticínios e frios,37207.4
+AG11,2025-04,Laticínios e frios,38529.57
+AG11,2025-05,Laticínios e frios,36207.96
+AG11,2025-06,Laticínios e frios,39151.08
+AG11,2025-07,Laticínios e frios,39022.21
+AG11,2025-08,Laticínios e frios,35510.7
+AG11,2025-09,Laticínios e frios,38272.86
+AG11,2025-10,Laticínios e frios,38250.22
+AG11,2025-11,Laticínios e frios,39667.63
+AG11,2025-12,Laticínios e frios,45981.87
+AG11,2025-01,Padaria e biscoitos,35016.44
+AG11,2025-02,Padaria e biscoitos,30365.59
+AG11,2025-03,Padaria e biscoitos,33181.85
+AG11,2025-04,Padaria e biscoitos,31568.84
+AG11,2025-05,Padaria e biscoitos,32606.71
+AG11,2025-06,Padaria e biscoitos,31606.51
+AG11,2025-07,Padaria e biscoitos,35316.63
+AG11,2025-08,Padaria e biscoitos,33166.34
+AG11,2025-09,Padaria e biscoitos,32215.54
+AG11,2025-10,Padaria e biscoitos,34571.56
+AG11,2025-11,Padaria e biscoitos,30387.78
+AG11,2025-12,Padaria e biscoitos,33865.85
+AG11,2025-01,Café e bebidas não alcoólicas,33341.78
+AG11,2025-02,Café e bebidas não alcoólicas,30531.21
+AG11,2025-03,Café e bebidas não alcoólicas,30041.53
+AG11,2025-04,Café e bebidas não alcoólicas,27763.96
+AG11,2025-05,Café e bebidas não alcoólicas,29633.24
+AG11,2025-06,Café e bebidas não alcoólicas,32793.62
+AG11,2025-07,Café e bebidas não alcoólicas,30915.83
+AG11,2025-08,Café e bebidas não alcoólicas,29920.5
+AG11,2025-09,Café e bebidas não alcoólicas,29023.5
+AG11,2025-10,Café e bebidas não alcoólicas,29088.12
+AG11,2025-11,Café e bebidas não alcoólicas,27738.44
+AG11,2025-12,Café e bebidas não alcoólicas,37325.0
+AG11,2025-01,Bebidas alcoólicas,15047.85
+AG11,2025-02,Bebidas alcoólicas,12665.57
+AG11,2025-03,Bebidas alcoólicas,11164.59
+AG11,2025-04,Bebidas alcoólicas,10891.08
+AG11,2025-05,Bebidas alcoólicas,10996.2
+AG11,2025-06,Bebidas alcoólicas,9835.25
+AG11,2025-07,Bebidas alcoólicas,8838.16
+AG11,2025-08,Bebidas alcoólicas,11899.91
+AG11,2025-09,Bebidas alcoólicas,11983.26
+AG11,2025-10,Bebidas alcoólicas,11396.0
+AG11,2025-11,Bebidas alcoólicas,10601.58
+AG11,2025-12,Bebidas alcoólicas,15782.51
+AG11,2025-01,Pronto para consumo,31089.74
+AG11,2025-02,Pronto para consumo,24168.25
+AG11,2025-03,Pronto para consumo,28727.55
+AG11,2025-04,Pronto para consumo,27556.35
+AG11,2025-05,Pronto para consumo,30430.99
+AG11,2025-06,Pronto para consumo,28260.84
+AG11,2025-07,Pronto para consumo,29827.49
+AG11,2025-08,Pronto para consumo,30069.34
+AG11,2025-09,Pronto para consumo,32041.89
+AG11,2025-10,Pronto para consumo,28935.98
+AG11,2025-11,Pronto para consumo,30977.34
+AG11,2025-12,Pronto para consumo,31210.11
+AG11,2025-01,Outros alimentos,29106.55
+AG11,2025-02,Outros alimentos,25081.34
+AG11,2025-03,Outros alimentos,26666.42
+AG11,2025-04,Outros alimentos,27394.17
+AG11,2025-05,Outros alimentos,25363.18
+AG11,2025-06,Outros alimentos,27740.16
+AG11,2025-07,Outros alimentos,28783.89
+AG11,2025-08,Outros alimentos,27829.3
+AG11,2025-09,Outros alimentos,25330.21
+AG11,2025-10,Outros alimentos,27255.42
+AG11,2025-11,Outros alimentos,29599.72
+AG11,2025-12,Outros alimentos,28711.71
+AG12,2025-01,Mercearia básica,75858.32
+AG12,2025-02,Mercearia básica,69913.01
+AG12,2025-03,Mercearia básica,74116.55
+AG12,2025-04,Mercearia básica,79679.71
+AG12,2025-05,Mercearia básica,74326.52
+AG12,2025-06,Mercearia básica,75033.5
+AG12,2025-07,Mercearia básica,83144.29
+AG12,2025-08,Mercearia básica,71833.43
+AG12,2025-09,Mercearia básica,69765.95
+AG12,2025-10,Mercearia básica,74175.21
+AG12,2025-11,Mercearia básica,77185.41
+AG12,2025-12,Mercearia básica,81326.05
+AG12,2025-01,Hortifruti,44642.22
+AG12,2025-02,Hortifruti,50123.94
+AG12,2025-03,Hortifruti,47781.66
+AG12,2025-04,Hortifruti,45317.15
+AG12,2025-05,Hortifruti,49209.97
+AG12,2025-06,Hortifruti,46751.32
+AG12,2025-07,Hortifruti,46416.53
+AG12,2025-08,Hortifruti,48347.45
+AG12,2025-09,Hortifruti,44066.76
+AG12,2025-10,Hortifruti,47843.3
+AG12,2025-11,Hortifruti,53794.34
+AG12,2025-12,Hortifruti,55333.06
+AG12,2025-01,Carnes e peixes,75106.52
+AG12,2025-02,Carnes e peixes,70885.75
+AG12,2025-03,Carnes e peixes,74978.47
+AG12,2025-04,Carnes e peixes,75567.01
+AG12,2025-05,Carnes e peixes,75100.53
+AG12,2025-06,Carnes e peixes,80120.65
+AG12,2025-07,Carnes e peixes,70179.59
+AG12,2025-08,Carnes e peixes,79903.37
+AG12,2025-09,Carnes e peixes,75093.48
+AG12,2025-10,Carnes e peixes,77988.81
+AG12,2025-11,Carnes e peixes,75232.95
+AG12,2025-12,Carnes e peixes,94057.99
+AG12,2025-01,Aves e ovos,24003.91
+AG12,2025-02,Aves e ovos,22479.89
+AG12,2025-03,Aves e ovos,20909.37
+AG12,2025-04,Aves e ovos,23509.18
+AG12,2025-05,Aves e ovos,23015.72
+AG12,2025-06,Aves e ovos,20814.95
+AG12,2025-07,Aves e ovos,22527.12
+AG12,2025-08,Aves e ovos,22969.37
+AG12,2025-09,Aves e ovos,23190.41
+AG12,2025-10,Aves e ovos,22755.3
+AG12,2025-11,Aves e ovos,23800.75
+AG12,2025-12,Aves e ovos,27920.95
+AG12,2025-01,Laticínios e frios,50863.26
+AG12,2025-02,Laticínios e frios,39377.44
+AG12,2025-03,Laticínios e frios,47085.6
+AG12,2025-04,Laticínios e frios,47446.68
+AG12,2025-05,Laticínios e frios,43826.31
+AG12,2025-06,Laticínios e frios,50948.6
+AG12,2025-07,Laticínios e frios,53976.35
+AG12,2025-08,Laticínios e frios,45309.23
+AG12,2025-09,Laticínios e frios,48650.36
+AG12,2025-10,Laticínios e frios,45697.7
+AG12,2025-11,Laticínios e frios,48108.76
+AG12,2025-12,Laticínios e frios,59232.52
+AG12,2025-01,Padaria e biscoitos,42169.92
+AG12,2025-02,Padaria e biscoitos,42125.46
+AG12,2025-03,Padaria e biscoitos,39459.47
+AG12,2025-04,Padaria e biscoitos,47558.04
+AG12,2025-05,Padaria e biscoitos,44655.06
+AG12,2025-06,Padaria e biscoitos,42935.97
+AG12,2025-07,Padaria e biscoitos,44594.58
+AG12,2025-08,Padaria e biscoitos,40380.38
+AG12,2025-09,Padaria e biscoitos,45968.74
+AG12,2025-10,Padaria e biscoitos,42633.3
+AG12,2025-11,Padaria e biscoitos,44605.28
+AG12,2025-12,Padaria e biscoitos,48618.99
+AG12,2025-01,Café e bebidas não alcoólicas,39295.37
+AG12,2025-02,Café e bebidas não alcoólicas,39788.56
+AG12,2025-03,Café e bebidas não alcoólicas,37938.77
+AG12,2025-04,Café e bebidas não alcoólicas,38697.13
+AG12,2025-05,Café e bebidas não alcoólicas,37439.95
+AG12,2025-06,Café e bebidas não alcoólicas,38429.99
+AG12,2025-07,Café e bebidas não alcoólicas,36680.15
+AG12,2025-08,Café e bebidas não alcoólicas,41873.98
+AG12,2025-09,Café e bebidas não alcoólicas,34632.12
+AG12,2025-10,Café e bebidas não alcoólicas,39893.96
+AG12,2025-11,Café e bebidas não alcoólicas,41712.22
+AG12,2025-12,Café e bebidas não alcoólicas,44580.35
+AG12,2025-01,Bebidas alcoólicas,20235.19
+AG12,2025-02,Bebidas alcoólicas,18073.39
+AG12,2025-03,Bebidas alcoólicas,15201.18
+AG12,2025-04,Bebidas alcoólicas,14501.0
+AG12,2025-05,Bebidas alcoólicas,14324.26
+AG12,2025-06,Bebidas alcoólicas,12180.38
+AG12,2025-07,Bebidas alcoólicas,12551.29
+AG12,2025-08,Bebidas alcoólicas,15531.58
+AG12,2025-09,Bebidas alcoólicas,14612.57
+AG12,2025-10,Bebidas alcoólicas,13835.59
+AG12,2025-11,Bebidas alcoólicas,15693.68
+AG12,2025-12,Bebidas alcoólicas,21797.15
+AG12,2025-01,Pronto para consumo,33433.05
+AG12,2025-02,Pronto para consumo,31905.99
+AG12,2025-03,Pronto para consumo,31921.05
+AG12,2025-04,Pronto para consumo,30887.84
+AG12,2025-05,Pronto para consumo,30981.87
+AG12,2025-06,Pronto para consumo,29815.81
+AG12,2025-07,Pronto para consumo,32742.02
+AG12,2025-08,Pronto para consumo,32221.68
+AG12,2025-09,Pronto para consumo,31652.36
+AG12,2025-10,Pronto para consumo,27911.28
+AG12,2025-11,Pronto para consumo,31616.11
+AG12,2025-12,Pronto para consumo,39354.72
+AG12,2025-01,Outros alimentos,36276.98
+AG12,2025-02,Outros alimentos,36275.81
+AG12,2025-03,Outros alimentos,34983.64
+AG12,2025-04,Outros alimentos,40299.94
+AG12,2025-05,Outros alimentos,37233.67
+AG12,2025-06,Outros alimentos,38050.6
+AG12,2025-07,Outros alimentos,42127.63
+AG12,2025-08,Outros alimentos,40456.88
+AG12,2025-09,Outros alimentos,36932.3
+AG12,2025-10,Outros alimentos,36406.73
+AG12,2025-11,Outros alimentos,38373.16
+AG12,2025-12,Outros alimentos,44241.87
+AG13,2025-01,Mercearia básica,22033.83
+AG13,2025-02,Mercearia básica,22975.01
+AG13,2025-03,Mercearia básica,22345.63
+AG13,2025-04,Mercearia básica,25212.02
+AG13,2025-05,Mercearia básica,22575.8
+AG13,2025-06,Mercearia básica,24571.99
+AG13,2025-07,Mercearia básica,22878.72
+AG13,2025-08,Mercearia básica,23582.13
+AG13,2025-09,Mercearia básica,21673.94
+AG13,2025-10,Mercearia básica,21534.44
+AG13,2025-11,Mercearia básica,23915.99
+AG13,2025-12,Mercearia básica,27154.18
+AG13,2025-01,Hortifruti,13650.37
+AG13,2025-02,Hortifruti,12135.57
+AG13,2025-03,Hortifruti,12727.2
+AG13,2025-04,Hortifruti,12684.71
+AG13,2025-05,Hortifruti,12470.59
+AG13,2025-06,Hortifruti,13697.71
+AG13,2025-07,Hortifruti,14411.21
+AG13,2025-08,Hortifruti,13613.79
+AG13,2025-09,Hortifruti,12167.07
+AG13,2025-10,Hortifruti,13493.61
+AG13,2025-11,Hortifruti,14052.98
+AG13,2025-12,Hortifruti,17397.32
+AG13,2025-01,Carnes e peixes,21640.09
+AG13,2025-02,Carnes e peixes,21684.06
+AG13,2025-03,Carnes e peixes,25347.93
+AG13,2025-04,Carnes e peixes,23805.19
+AG13,2025-05,Carnes e peixes,23940.47
+AG13,2025-06,Carnes e peixes,23409.31
+AG13,2025-07,Carnes e peixes,23662.74
+AG13,2025-08,Carnes e peixes,24198.36
+AG13,2025-09,Carnes e peixes,22352.32
+AG13,2025-10,Carnes e peixes,24320.2
+AG13,2025-11,Carnes e peixes,22600.57
+AG13,2025-12,Carnes e peixes,27210.01
+AG13,2025-01,Aves e ovos,7374.82
+AG13,2025-02,Aves e ovos,6733.04
+AG13,2025-03,Aves e ovos,7300.92
+AG13,2025-04,Aves e ovos,7085.2
+AG13,2025-05,Aves e ovos,6927.85
+AG13,2025-06,Aves e ovos,7181.11
+AG13,2025-07,Aves e ovos,6916.68
+AG13,2025-08,Aves e ovos,7428.13
+AG13,2025-09,Aves e ovos,6900.75
+AG13,2025-10,Aves e ovos,7574.09
+AG13,2025-11,Aves e ovos,7165.53
+AG13,2025-12,Aves e ovos,8170.92
+AG13,2025-01,Laticínios e frios,13870.77
+AG13,2025-02,Laticínios e frios,14526.55
+AG13,2025-03,Laticínios e frios,14549.09
+AG13,2025-04,Laticínios e frios,14160.09
+AG13,2025-05,Laticínios e frios,14672.13
+AG13,2025-06,Laticínios e frios,13652.51
+AG13,2025-07,Laticínios e frios,15136.76
+AG13,2025-08,Laticínios e frios,15813.91
+AG13,2025-09,Laticínios e frios,14405.81
+AG13,2025-10,Laticínios e frios,14359.47
+AG13,2025-11,Laticínios e frios,15296.76
+AG13,2025-12,Laticínios e frios,17211.13
+AG13,2025-01,Padaria e biscoitos,12182.71
+AG13,2025-02,Padaria e biscoitos,11757.38
+AG13,2025-03,Padaria e biscoitos,13604.57
+AG13,2025-04,Padaria e biscoitos,12989.57
+AG13,2025-05,Padaria e biscoitos,14375.02
+AG13,2025-06,Padaria e biscoitos,13251.78
+AG13,2025-07,Padaria e biscoitos,12221.11
+AG13,2025-08,Padaria e biscoitos,12635.25
+AG13,2025-09,Padaria e biscoitos,11733.02
+AG13,2025-10,Padaria e biscoitos,13305.6
+AG13,2025-11,Padaria e biscoitos,13869.5
+AG13,2025-12,Padaria e biscoitos,15156.5
+AG13,2025-01,Café e bebidas não alcoólicas,13002.39
+AG13,2025-02,Café e bebidas não alcoólicas,12426.39
+AG13,2025-03,Café e bebidas não alcoólicas,11310.25
+AG13,2025-04,Café e bebidas não alcoólicas,10252.22
+AG13,2025-05,Café e bebidas não alcoólicas,11764.57
+AG13,2025-06,Café e bebidas não alcoólicas,11728.2
+AG13,2025-07,Café e bebidas não alcoólicas,11584.85
+AG13,2025-08,Café e bebidas não alcoólicas,11980.77
+AG13,2025-09,Café e bebidas não alcoólicas,10761.63
+AG13,2025-10,Café e bebidas não alcoólicas,12612.22
+AG13,2025-11,Café e bebidas não alcoólicas,11307.63
+AG13,2025-12,Café e bebidas não alcoólicas,14708.31
+AG13,2025-01,Bebidas alcoólicas,4549.17
+AG13,2025-02,Bebidas alcoólicas,4488.44
+AG13,2025-03,Bebidas alcoólicas,4271.59
+AG13,2025-04,Bebidas alcoólicas,3908.38
+AG13,2025-05,Bebidas alcoólicas,4129.53
+AG13,2025-06,Bebidas alcoólicas,3405.86
+AG13,2025-07,Bebidas alcoólicas,3348.13
+AG13,2025-08,Bebidas alcoólicas,4239.14
+AG13,2025-09,Bebidas alcoólicas,3913.12
+AG13,2025-10,Bebidas alcoólicas,3622.38
+AG13,2025-11,Bebidas alcoólicas,3955.98
+AG13,2025-12,Bebidas alcoólicas,5851.12
+AG13,2025-01,Pronto para consumo,10366.04
+AG13,2025-02,Pronto para consumo,8927.3
+AG13,2025-03,Pronto para consumo,9801.57
+AG13,2025-04,Pronto para consumo,9871.72
+AG13,2025-05,Pronto para consumo,9979.03
+AG13,2025-06,Pronto para consumo,9487.39
+AG13,2025-07,Pronto para consumo,9848.72
+AG13,2025-08,Pronto para consumo,9799.48
+AG13,2025-09,Pronto para consumo,10562.78
+AG13,2025-10,Pronto para consumo,10582.65
+AG13,2025-11,Pronto para consumo,10492.81
+AG13,2025-12,Pronto para consumo,11460.65
+AG13,2025-01,Outros alimentos,14011.88
+AG13,2025-02,Outros alimentos,12689.66
+AG13,2025-03,Outros alimentos,13138.78
+AG13,2025-04,Outros alimentos,13275.21
+AG13,2025-05,Outros alimentos,13479.48
+AG13,2025-06,Outros alimentos,13127.85
+AG13,2025-07,Outros alimentos,14027.4
+AG13,2025-08,Outros alimentos,14431.24
+AG13,2025-09,Outros alimentos,12852.71
+AG13,2025-10,Outros alimentos,13931.69
+AG13,2025-11,Outros alimentos,14312.5
+AG13,2025-12,Outros alimentos,16276.9
+AG14,2025-01,Mercearia básica,45528.05
+AG14,2025-02,Mercearia básica,43667.14
+AG14,2025-03,Mercearia básica,49032.33
+AG14,2025-04,Mercearia básica,51544.61
+AG14,2025-05,Mercearia básica,43829.16
+AG14,2025-06,Mercearia básica,49813.95
+AG14,2025-07,Mercearia básica,51960.81
+AG14,2025-08,Mercearia básica,48587.07
+AG14,2025-09,Mercearia básica,50325.85
+AG14,2025-10,Mercearia básica,47269.02
+AG14,2025-11,Mercearia básica,50615.66
+AG14,2025-12,Mercearia básica,51921.08
+AG14,2025-01,Hortifruti,24999.4
+AG14,2025-02,Hortifruti,27991.87
+AG14,2025-03,Hortifruti,26757.62
+AG14,2025-04,Hortifruti,27475.45
+AG14,2025-05,Hortifruti,26225.89
+AG14,2025-06,Hortifruti,26195.06
+AG14,2025-07,Hortifruti,27865.16
+AG14,2025-08,Hortifruti,27101.53
+AG14,2025-09,Hortifruti,28644.68
+AG14,2025-10,Hortifruti,28751.68
+AG14,2025-11,Hortifruti,29705.5
+AG14,2025-12,Hortifruti,32712.63
+AG14,2025-01,Carnes e peixes,55520.24
+AG14,2025-02,Carnes e peixes,46209.54
+AG14,2025-03,Carnes e peixes,51167.9
+AG14,2025-04,Carnes e peixes,54298.34
+AG14,2025-05,Carnes e peixes,54657.48
+AG14,2025-06,Carnes e peixes,47787.83
+AG14,2025-07,Carnes e peixes,50513.54
+AG14,2025-08,Carnes e peixes,54913.83
+AG14,2025-09,Carnes e peixes,52628.78
+AG14,2025-10,Carnes e peixes,51812.03
+AG14,2025-11,Carnes e peixes,52783.34
+AG14,2025-12,Carnes e peixes,57883.42
+AG14,2025-01,Aves e ovos,16520.19
+AG14,2025-02,Aves e ovos,15275.65
+AG14,2025-03,Aves e ovos,16249.19
+AG14,2025-04,Aves e ovos,16347.94
+AG14,2025-05,Aves e ovos,15741.0
+AG14,2025-06,Aves e ovos,16722.89
+AG14,2025-07,Aves e ovos,18838.16
+AG14,2025-08,Aves e ovos,14899.43
+AG14,2025-09,Aves e ovos,16549.78
+AG14,2025-10,Aves e ovos,15676.5
+AG14,2025-11,Aves e ovos,17431.22
+AG14,2025-12,Aves e ovos,18770.04
+AG14,2025-01,Laticínios e frios,32362.55
+AG14,2025-02,Laticínios e frios,31386.91
+AG14,2025-03,Laticínios e frios,31454.12
+AG14,2025-04,Laticínios e frios,32967.15
+AG14,2025-05,Laticínios e frios,27707.25
+AG14,2025-06,Laticínios e frios,35755.37
+AG14,2025-07,Laticínios e frios,33647.24
+AG14,2025-08,Laticínios e frios,32877.92
+AG14,2025-09,Laticínios e frios,29309.6
+AG14,2025-10,Laticínios e frios,29885.41
+AG14,2025-11,Laticínios e frios,32636.35
+AG14,2025-12,Laticínios e frios,35795.39
+AG14,2025-01,Padaria e biscoitos,30597.99
+AG14,2025-02,Padaria e biscoitos,30256.57
+AG14,2025-03,Padaria e biscoitos,27619.44
+AG14,2025-04,Padaria e biscoitos,31673.23
+AG14,2025-05,Padaria e biscoitos,30180.47
+AG14,2025-06,Padaria e biscoitos,29862.15
+AG14,2025-07,Padaria e biscoitos,28028.59
+AG14,2025-08,Padaria e biscoitos,30936.4
+AG14,2025-09,Padaria e biscoitos,26737.73
+AG14,2025-10,Padaria e biscoitos,31162.04
+AG14,2025-11,Padaria e biscoitos,29119.16
+AG14,2025-12,Padaria e biscoitos,34786.03
+AG14,2025-01,Café e bebidas não alcoólicas,24569.08
+AG14,2025-02,Café e bebidas não alcoólicas,24894.1
+AG14,2025-03,Café e bebidas não alcoólicas,22681.59
+AG14,2025-04,Café e bebidas não alcoólicas,22104.46
+AG14,2025-05,Café e bebidas não alcoólicas,22312.7
+AG14,2025-06,Café e bebidas não alcoólicas,24388.95
+AG14,2025-07,Café e bebidas não alcoólicas,23507.07
+AG14,2025-08,Café e bebidas não alcoólicas,22448.07
+AG14,2025-09,Café e bebidas não alcoólicas,22616.14
+AG14,2025-10,Café e bebidas não alcoólicas,21160.31
+AG14,2025-11,Café e bebidas não alcoólicas,24267.32
+AG14,2025-12,Café e bebidas não alcoólicas,26029.19
+AG14,2025-01,Bebidas alcoólicas,10560.37
+AG14,2025-02,Bebidas alcoólicas,9724.57
+AG14,2025-03,Bebidas alcoólicas,9168.03
+AG14,2025-04,Bebidas alcoólicas,7701.13
+AG14,2025-05,Bebidas alcoólicas,8094.96
+AG14,2025-06,Bebidas alcoólicas,7566.8
+AG14,2025-07,Bebidas alcoólicas,7340.63
+AG14,2025-08,Bebidas alcoólicas,7858.25
+AG14,2025-09,Bebidas alcoólicas,8228.25
+AG14,2025-10,Bebidas alcoólicas,8137.43
+AG14,2025-11,Bebidas alcoólicas,8582.22
+AG14,2025-12,Bebidas alcoólicas,11294.84
+AG14,2025-01,Pronto para consumo,17326.74
+AG14,2025-02,Pronto para consumo,15264.36
+AG14,2025-03,Pronto para consumo,17522.27
+AG14,2025-04,Pronto para consumo,17800.34
+AG14,2025-05,Pronto para consumo,17207.51
+AG14,2025-06,Pronto para consumo,16054.1
+AG14,2025-07,Pronto para consumo,18286.14
+AG14,2025-08,Pronto para consumo,17724.41
+AG14,2025-09,Pronto para consumo,16783.83
+AG14,2025-10,Pronto para consumo,17161.81
+AG14,2025-11,Pronto para consumo,16792.02
+AG14,2025-12,Pronto para consumo,19014.62
+AG14,2025-01,Outros alimentos,30461.06
+AG14,2025-02,Outros alimentos,31609.81
+AG14,2025-03,Outros alimentos,30306.58
+AG14,2025-04,Outros alimentos,32309.15
+AG14,2025-05,Outros alimentos,30460.3
+AG14,2025-06,Outros alimentos,31681.64
+AG14,2025-07,Outros alimentos,31070.85
+AG14,2025-08,Outros alimentos,32687.5
+AG14,2025-09,Outros alimentos,30465.63
+AG14,2025-10,Outros alimentos,28925.21
+AG14,2025-11,Outros alimentos,30370.24
+AG14,2025-12,Outros alimentos,35040.62
+AG15,2025-01,Mercearia básica,16987.11
+AG15,2025-02,Mercearia básica,15446.19
+AG15,2025-03,Mercearia básica,18740.27
+AG15,2025-04,Mercearia básica,15257.31
+AG15,2025-05,Mercearia básica,16812.55
+AG15,2025-06,Mercearia básica,15729.64
+AG15,2025-07,Mercearia básica,16236.7
+AG15,2025-08,Mercearia básica,16760.34
+AG15,2025-09,Mercearia básica,14815.53
+AG15,2025-10,Mercearia básica,16840.48
+AG15,2025-11,Mercearia básica,19035.59
+AG15,2025-12,Mercearia básica,18709.55
+AG15,2025-01,Hortifruti,11553.22
+AG15,2025-02,Hortifruti,11403.58
+AG15,2025-03,Hortifruti,11311.01
+AG15,2025-04,Hortifruti,11077.61
+AG15,2025-05,Hortifruti,10177.58
+AG15,2025-06,Hortifruti,11775.53
+AG15,2025-07,Hortifruti,11339.77
+AG15,2025-08,Hortifruti,10841.05
+AG15,2025-09,Hortifruti,11476.53
+AG15,2025-10,Hortifruti,11076.11
+AG15,2025-11,Hortifruti,11551.02
+AG15,2025-12,Hortifruti,13518.39
+AG15,2025-01,Carnes e peixes,15600.9
+AG15,2025-02,Carnes e peixes,16698.52
+AG15,2025-03,Carnes e peixes,15554.71
+AG15,2025-04,Carnes e peixes,16136.97
+AG15,2025-05,Carnes e peixes,18364.05
+AG15,2025-06,Carnes e peixes,17647.88
+AG15,2025-07,Carnes e peixes,16762.23
+AG15,2025-08,Carnes e peixes,15914.35
+AG15,2025-09,Carnes e peixes,16244.99
+AG15,2025-10,Carnes e peixes,16741.85
+AG15,2025-11,Carnes e peixes,17380.43
+AG15,2025-12,Carnes e peixes,19095.76
+AG15,2025-01,Aves e ovos,5048.8
+AG15,2025-02,Aves e ovos,4752.55
+AG15,2025-03,Aves e ovos,4704.85
+AG15,2025-04,Aves e ovos,4927.68
+AG15,2025-05,Aves e ovos,5293.21
+AG15,2025-06,Aves e ovos,4722.21
+AG15,2025-07,Aves e ovos,5008.89
+AG15,2025-08,Aves e ovos,4853.52
+AG15,2025-09,Aves e ovos,5084.82
+AG15,2025-10,Aves e ovos,4959.28
+AG15,2025-11,Aves e ovos,5662.03
+AG15,2025-12,Aves e ovos,5964.25
+AG15,2025-01,Laticínios e frios,10655.75
+AG15,2025-02,Laticínios e frios,11178.12
+AG15,2025-03,Laticínios e frios,10945.82
+AG15,2025-04,Laticínios e frios,11054.53
+AG15,2025-05,Laticínios e frios,11558.04
+AG15,2025-06,Laticínios e frios,11767.85
+AG15,2025-07,Laticínios e frios,12611.41
+AG15,2025-08,Laticínios e frios,10945.89
+AG15,2025-09,Laticínios e frios,11031.37
+AG15,2025-10,Laticínios e frios,11010.74
+AG15,2025-11,Laticínios e frios,11503.24
+AG15,2025-12,Laticínios e frios,13824.07
+AG15,2025-01,Padaria e biscoitos,10227.01
+AG15,2025-02,Padaria e biscoitos,10255.31
+AG15,2025-03,Padaria e biscoitos,11100.32
+AG15,2025-04,Padaria e biscoitos,9412.67
+AG15,2025-05,Padaria e biscoitos,9945.43
+AG15,2025-06,Padaria e biscoitos,9344.44
+AG15,2025-07,Padaria e biscoitos,9532.55
+AG15,2025-08,Padaria e biscoitos,9603.12
+AG15,2025-09,Padaria e biscoitos,9400.23
+AG15,2025-10,Padaria e biscoitos,9402.71
+AG15,2025-11,Padaria e biscoitos,10232.8
+AG15,2025-12,Padaria e biscoitos,10724.36
+AG15,2025-01,Café e bebidas não alcoólicas,11081.81
+AG15,2025-02,Café e bebidas não alcoólicas,9640.93
+AG15,2025-03,Café e bebidas não alcoólicas,11321.64
+AG15,2025-04,Café e bebidas não alcoólicas,9618.31
+AG15,2025-05,Café e bebidas não alcoólicas,9873.34
+AG15,2025-06,Café e bebidas não alcoólicas,9220.88
+AG15,2025-07,Café e bebidas não alcoólicas,10713.9
+AG15,2025-08,Café e bebidas não alcoólicas,10404.23
+AG15,2025-09,Café e bebidas não alcoólicas,9984.99
+AG15,2025-10,Café e bebidas não alcoólicas,9197.18
+AG15,2025-11,Café e bebidas não alcoólicas,10339.71
+AG15,2025-12,Café e bebidas não alcoólicas,11552.35
+AG15,2025-01,Bebidas alcoólicas,4740.94
+AG15,2025-02,Bebidas alcoólicas,4359.18
+AG15,2025-03,Bebidas alcoólicas,3542.19
+AG15,2025-04,Bebidas alcoólicas,3121.0
+AG15,2025-05,Bebidas alcoólicas,3356.18
+AG15,2025-06,Bebidas alcoólicas,3101.37
+AG15,2025-07,Bebidas alcoólicas,3183.87
+AG15,2025-08,Bebidas alcoólicas,3726.36
+AG15,2025-09,Bebidas alcoólicas,3255.59
+AG15,2025-10,Bebidas alcoólicas,3578.88
+AG15,2025-11,Bebidas alcoólicas,3857.31
+AG15,2025-12,Bebidas alcoólicas,4664.41
+AG15,2025-01,Pronto para consumo,11011.93
+AG15,2025-02,Pronto para consumo,10609.74
+AG15,2025-03,Pronto para consumo,10851.85
+AG15,2025-04,Pronto para consumo,10041.9
+AG15,2025-05,Pronto para consumo,10838.33
+AG15,2025-06,Pronto para consumo,10837.46
+AG15,2025-07,Pronto para consumo,10935.02
+AG15,2025-08,Pronto para consumo,10710.24
+AG15,2025-09,Pronto para consumo,10774.94
+AG15,2025-10,Pronto para consumo,10994.43
+AG15,2025-11,Pronto para consumo,11713.21
+AG15,2025-12,Pronto para consumo,12477.35
+AG15,2025-01,Outros alimentos,8053.7
+AG15,2025-02,Outros alimentos,7845.48
+AG15,2025-03,Outros alimentos,7467.56
+AG15,2025-04,Outros alimentos,8418.78
+AG15,2025-05,Outros alimentos,8220.13
+AG15,2025-06,Outros alimentos,8236.69
+AG15,2025-07,Outros alimentos,8624.87
+AG15,2025-08,Outros alimentos,7455.66
+AG15,2025-09,Outros alimentos,7447.82
+AG15,2025-10,Outros alimentos,8333.67
+AG15,2025-11,Outros alimentos,8546.13
+AG15,2025-12,Outros alimentos,9534.19
