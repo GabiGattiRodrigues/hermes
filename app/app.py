@@ -103,10 +103,6 @@ lojas = lojas.sort_values("loja_id")
 opcoes = {f"{r.loja_id} · {r.nome}": r.loja_id for r in lojas.itertuples()}
 with st.sidebar:
     loja_sel = opcoes[st.selectbox(t("loja"), list(opcoes))]
-    _l = lojas.set_index("loja_id").loc[loja_sel]
-    st.markdown(f"**{t('perfil_sidebar')}**  \n"
-                f"<span style='color:{COR_PERFIL.get(_l['perfil_chave'], CINZA)}; font-size:1.3em'>●</span> "
-                f"{_l[col_perfil]}", unsafe_allow_html=True)
     st.markdown("---")
     st.markdown(t("sobre"))
 
@@ -367,6 +363,24 @@ with abas[1]:
             tooltip=f"<b>{r.loja_id} · {r.nome}</b><br>{getattr(r, col_perfil)}",
         ).add_to(m)
 
+    # As abas do Streamlit carregam escondidas (largura 0); o Leaflet então calcula
+    # o zoom errado. Quando o mapa ganha tamanho de verdade, recentralizamos.
+    mapa_js = m.get_name()
+    m.get_root().html.add_child(folium.Element(f"""
+    <script>
+    (function() {{
+      var ajustado = false;
+      function ajustar() {{
+        if (typeof {mapa_js} === 'undefined') return;
+        var el = document.getElementById('{mapa_js}');
+        if (!el || el.clientWidth < 50) return;
+        {mapa_js}.invalidateSize();
+        if (!ajustado) {{ {mapa_js}.setView([{centro[0]}, {centro[1]}], 14, {{reset: true}}); ajustado = true; }}
+      }}
+      new ResizeObserver(ajustar).observe(document.documentElement);
+      window.addEventListener('load', function() {{ setTimeout(ajustar, 300); }});
+    }})();
+    </script>"""))
     # HTML do folium direto num iframe de altura fixa (mais robusto que o st_folium).
     components.html(m.get_root().render(), height=580)
 
