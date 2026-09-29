@@ -2,6 +2,8 @@
 
 <img src="app/assets/hermes.png" width="360" alt="Hermes">
 
+🚀 **App:** https://hermes-geolocalizacao.streamlit.app/
+
 **Área de 15 minutos a pé, perfil de quem mora e trabalha perto e mix de produtos ideal** para cada
 loja de uma rede fictícia de mercados de proximidade em São Paulo, construído com **dados públicos reais**.
 
