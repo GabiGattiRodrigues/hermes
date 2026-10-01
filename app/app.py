@@ -101,8 +101,114 @@ def num(v: float) -> str:
 col_perfil = "perfil" if lang == "pt" else "perfil_en"
 lojas = lojas.sort_values("loja_id")
 opcoes = {f"{r.loja_id} · {r.nome}": r.loja_id for r in lojas.itertuples()}
+# ---------------------------------------------------------------------------
+# Barra lateral: mapa clicável para escolher a loja + perfil do comércio
+# ---------------------------------------------------------------------------
+REDES = [  # (padrão no nome, bandeira/grupo, formato)
+    (r"carrefour|atacad[aã]o", "Grupo Carrefour", "rede"),
+    (r"oxxo", "Oxxo", "rede"),
+    (r"\bdia\b", "Dia", "rede"),
+    (r"p[aã]o de a[cç][uú]car|extra", "GPA (Pão de Açúcar/Extra)", "rede"),
+    (r"assa[ií]", "Assaí", "rede"),
+    (r"\boba\b", "Oba", "rede"),
+    (r"st\.? ?march", "St Marche", "rede"),
+    (r"americanas", "Americanas", "rede"),
+    (r"ampm|shell select|br mania|^br$", "Conveniência de posto", "posto"),
+    (r"sonda|mambo|hirota|futurama|padr[aã]o|pastorinho|econ\b", "Rede regional", "regional"),
+]
+
+
+def classificar(nome: str) -> tuple[str, str]:
+    import re
+    n = (nome or "").lower()
+    if n in ("", "(sem nome)"):
+        return ("Sem nome no OSM" if lang == "pt" else "Unnamed in OSM"), "sem_nome"
+    for padrao, bandeira, formato in REDES:
+        if re.search(padrao, n):
+            return bandeira, formato
+    return ("Independente" if lang == "pt" else "Independent"), "independente"
+
+
+def perfil_comercio(loja_id: str) -> dict | None:
+    """Resumo do comércio de alimentos (concorrência) dentro da isócrona da loja."""
+    lj = lojas.set_index("loja_id").loc[loja_id]
+    if pd.isna(lj["concorrentes"]):
+        return None
+    c = conc[conc["loja_id"] == loja_id].copy()
+    c[["bandeira", "formato"]] = [classificar(n) for n in c["nome"]] if len(c) else pd.DataFrame(columns=["a", "b"])
+    pt_loja = gpd.GeoSeries.from_xy([lj["lon"]], [lj["lat"]], crs=config.CRS_WGS84).to_crs(config.CRS_METRICO).iloc[0]
+    dist = c.to_crs(config.CRS_METRICO).distance(pt_loja) if len(c) else pd.Series(dtype=float)
+    n = len(c)
+    return {
+        "n": n,
+        "por10mil": n / lj["pop"] * 1e4 if lj["pop"] else np.nan,
+        "pct_redes": (c["formato"].isin(["rede", "posto"]).mean() if n else np.nan),
+        "super": int((c["tipo"] == "supermarket").sum()), "conv": int((c["tipo"] == "convenience").sum()),
+        "mais_proximo": dist.min() if n else np.nan,
+        "tabela": c.assign(dist_m=dist.round(0).values if n else []),
+    }
+
+
+@st.cache_data
+def medias_comercio(_lojas_ids: tuple) -> dict:
+    vals = [perfil_comercio(l) for l in _lojas_ids]
+    vals = [v for v in vals if v]
+    return {k: np.nanmean([v[k] for v in vals]) for k in ["n", "por10mil", "pct_redes", "mais_proximo"]}
+
+
+def _ao_clicar_mapa():
+    """Clique numa loja do mapa lateral -> atualiza a loja escolhida na lista."""
+    ev = st.session_state.get("mapa_lateral")
+    try:
+        pontos = ev["selection"]["points"]
+    except (KeyError, TypeError):
+        return
+    if pontos:
+        lid = pontos[0]["customdata"][0]
+        rotulo = next((k for k, v in opcoes.items() if v == lid), None)
+        if rotulo:
+            st.session_state["loja_escolhida"] = rotulo
+
+
+def mapa_lateral(loja_atual: str):
+    d = lojas.copy()
+    d["sel"] = np.where(d["loja_id"] == loja_atual, 16, 9)
+    d["perfil_txt"] = d[col_perfil]
+    fig = px.scatter_map(d, lat="lat", lon="lon", color="perfil_chave", color_discrete_map=COR_PERFIL,
+                         size="sel", size_max=16, custom_data=["loja_id", "nome", "perfil_txt"],
+                         zoom=9.4, center={"lat": -23.585, "lon": -46.625}, height=300)
+    fig.update_traces(hovertemplate="<b>%{customdata[0]} · %{customdata[1]}</b><br>%{customdata[2]}<extra></extra>",
+                      marker=dict(opacity=0.95))
+    # Arrastar = mover o mapa; zoom pelos botões + / − (a rodinha do mouse fica desligada porque,
+    # na barra lateral, ela briga com a rolagem da página). uirevision fixo = o zoom e a posição
+    # escolhidos pelo usuário não "voltam" quando o app recarrega após um clique.
+    fig.update_layout(map_style="carto-positron", margin=dict(l=0, r=0, t=0, b=0), showlegend=False,
+                      clickmode="event+select", dragmode="pan", uirevision="mapa_lateral",
+                      modebar=dict(orientation="v", bgcolor="rgba(255,255,255,0.85)"))
+    return fig
+
+
+if "loja_escolhida" not in st.session_state:
+    st.session_state["loja_escolhida"] = list(opcoes)[0]
 with st.sidebar:
-    loja_sel = opcoes[st.selectbox(t("loja"), list(opcoes))]
+    st.caption(t("mapa_lateral"))
+    loja_sel = opcoes[st.session_state["loja_escolhida"]]
+    st.plotly_chart(mapa_lateral(loja_sel), key="mapa_lateral", on_select=_ao_clicar_mapa,
+                    selection_mode="points", config={"displayModeBar": True, "displaylogo": False, "scrollZoom": False,
+                            "doubleClick": False,
+                            "modeBarButtons": [["zoomInMap", "zoomOutMap", "resetViewMap"]]})
+    loja_sel = opcoes[st.selectbox(t("loja"), list(opcoes), key="loja_escolhida")]
+    _pc = perfil_comercio(loja_sel)
+    st.markdown(f"**{t('comercio_titulo')}**")
+    if _pc is None:
+        st.caption(t("sem_dados_conc"))
+    else:
+        _dec = (lambda v: f"{v:.1f}".replace(".", ",")) if lang == "pt" else (lambda v: f"{v:.1f}")
+        _red = "–" if np.isnan(_pc["pct_redes"]) else f"{_pc['pct_redes']:.0%}"
+        st.markdown(f"{t('estab')}: **{_pc['n']}** ({_pc['super']} super · {_pc['conv']} conv.)  \n"
+                    f"{t('por10mil')}: **{_dec(_pc['por10mil'])}**  \n"
+                    f"{t('pct_redes')}: **{_red}**")
+        st.caption("➡️ " + ("detalhes na aba Raio-X da loja" if lang == "pt" else "details in the Store deep-dive tab"))
     st.markdown("---")
     st.markdown(t("sobre"))
 
@@ -154,6 +260,109 @@ def achados() -> str:
             f"({ind(rica.loja_id, 'Aves e ovos'):.0f} × {ind(pobre.loja_id, 'Aves e ovos'):.0f}).\n"
             f"- **The core is the same everywhere:** *dry grocery* only ranges from {merc.min():.0f} to "
             f"{merc.max():.0f}. A standard core plus profile-specific edges is enough.")
+
+
+def recomendacao_loja(loja_id: str) -> str:
+    """
+    Recomendação de sortimento em linguagem de negócio: "se eu abrir um mercado aqui,
+    priorizo X, Y e Z porque...". Os motivos saem dos dados: quanto do potencial vem de
+    quem trabalha na área e quanto o carrinho das famílias daqui difere do da cidade.
+    """
+    pt = lang == "pt"
+    lj = lojas.set_index("loja_id").loc[loja_id]
+    p = pot[pot.loja_id == loja_id].set_index("categoria")
+    cid = pot_cid.set_index("categoria")
+    sh_mor = p["moradores"] / p["moradores"].sum()             # carrinho só das famílias daqui
+    sh_mor_cid = cid["moradores"] / cid["moradores"].sum()     # carrinho das famílias da cidade
+    pct_trab = (p["trabalhadores"] / p["total"]).fillna(0)     # quanto do potencial vem de quem trabalha
+    def pct(v):
+        txt = f"{v * 100:.1f}%"
+        return txt.replace(".", ",") if pt else txt
+
+    def motivo(c: str) -> str:
+        if pct_trab[c] >= 0.25:
+            if pt:
+                return (f"{pct(pct_trab[c])} do potencial dessa categoria vem de quem **trabalha** na área "
+                        f"(~{num(lj['empregos'] / 1e3)} mil empregos), não de quem mora.")
+            return (f"{pct(pct_trab[c])} of this category's potential comes from people who **work** in the area "
+                    f"(~{num(lj['empregos'] / 1e3)}k jobs), not residents.")
+        mais = sh_mor[c] >= sh_mor_cid[c]
+        renda = brl(lj["renda_media_resp"] / 1e3, 1) + (" mil" if pt else "k")
+        if pt:
+            return (f"o carrinho das famílias daqui (renda média do responsável {renda}) põe **{pct(sh_mor[c])}** "
+                    f"do gasto com alimentos nessa categoria, contra {pct(sh_mor_cid[c])} na média de SP.")
+        return (f"local families' basket (head-of-household income {renda}) puts **{pct(sh_mor[c])}** of food "
+                f"spending in this category, versus {pct(sh_mor_cid[c])} across São Paulo.")
+
+    ordem = p.sort_values("indice", ascending=False)
+    prior = ordem[ordem["indice"] >= 105].head(3)
+    menos = ordem[ordem["indice"] <= 95].tail(3).iloc[::-1]
+    linhas = [("**🛒 Se você for abrir um mercado nesta região, o sortimento deve priorizar:**" if pt else
+               "**🛒 If you open a store in this area, the assortment should prioritize:**")]
+    for i, (c, r) in enumerate(prior.iterrows(), 1):
+        linhas.append(f"{i}. **{cat(c)}** (índice {r['indice']:.0f}) — " + ("porque " if pt else "because ") + motivo(c)
+                      if pt else f"{i}. **{cat(c)}** (index {r['indice']:.0f}) — because " + motivo(c))
+    if not len(prior):
+        linhas.append("- " + ("nenhuma categoria se destaca muito: o mix médio da cidade já atende bem." if pt else
+                              "no category stands out much: the city's average mix already fits."))
+    if len(menos):
+        linhas.append("")
+        linhas.append("**↘️ E pode dar menos espaço para:**" if pt else "**↘️ And give less space to:**")
+        for c, r in menos.iterrows():
+            linhas.append(f"- **{cat(c)}** (índice {r['indice']:.0f}) — " + ("porque " if pt else "because ")
+                          + motivo(c) if pt else f"- **{cat(c)}** (index {r['indice']:.0f}) — because " + motivo(c))
+
+    # Contexto: público e concorrência
+    ctx = []
+    if lj["empregos_por_morador"] >= 2:
+        ctx.append("🕛 O público principal é **quem trabalha** na região: pico no almoço e no fim da tarde. Lanche, "
+                   "bebida gelada e café perto do caixa." if pt else
+                   "🕛 The main audience is **office workers**: peaks at lunch and late afternoon. Snacks, cold drinks "
+                   "and coffee near the checkout.")
+    elif lj["pct_0_14"] >= lojas["pct_0_14"].median() * 1.2:
+        ctx.append("👨‍👩‍👧 Muitas **famílias com crianças**: embalagens maiores, mercearia de reposição e preço visível "
+                   "na gôndola." if pt else
+                   "👨‍👩‍👧 Many **families with kids**: larger packs, staple groceries and visible shelf prices.")
+    else:
+        ctx.append("🏠 Público de **moradores** fazendo compra de reposição: frescos todos os dias fazem a loja virar "
+                   "hábito." if pt else
+                   "🏠 **Residents** doing top-up shopping: fresh produce every day turns the store into a habit.")
+    pc = perfil_comercio(loja_id)
+    if pc is not None:
+        med = medias_comercio(tuple(lojas["loja_id"]))
+        d = (lambda v: f"{v:.1f}".replace(".", ",")) if pt else (lambda v: f"{v:.1f}")
+        if pc["por10mil"] > med["por10mil"] * 1.2:
+            ctx.append(f"🏬 **Muita concorrência mapeada** ({pc['n']} mercados, {d(pc['por10mil'])} por 10 mil moradores; média "
+                       f"{d(med['por10mil'])}): diferenciar pelo mix acima e pela conveniência, não por preço." if pt else
+                       f"🏬 **High competition** ({pc['n']} stores, {d(pc['por10mil'])} per 10k residents; avg "
+                       f"{d(med['por10mil'])}): win on the mix above and on convenience, not price.")
+        elif pc["por10mil"] < med["por10mil"] * 0.8:
+            ctx.append(f"🏬 **Pouca concorrência mapeada** ({pc['n']} mercados, {d(pc['por10mil'])} por 10 mil moradores; média "
+                       f"{d(med['por10mil'])}): espaço para também capturar a compra do mês." if pt else
+                       f"🏬 **Low competition** ({pc['n']} stores, {d(pc['por10mil'])} per 10k residents; avg "
+                       f"{d(med['por10mil'])}): room to also capture the monthly shop.")
+    ctx.append(f"🧩 Modelo de gôndola: perfil **{lj[col_perfil]}** (k-means)." if pt else
+               f"🧩 Shelf template: **{lj[col_perfil]}** profile (k-means).")
+    linhas.append("")
+    linhas.append("**📍 Contexto da região:**" if pt else "**📍 Area context:**")
+    linhas += [f"- {c}" for c in ctx]
+    return "\n".join(linhas)
+
+
+def recomendacao_rede() -> pd.DataFrame:
+    """Um planograma por perfil: o que ganha e o que perde espaço (média do índice das lojas do perfil)."""
+    d = pot.merge(lojas[["loja_id", col_perfil]], on="loja_id")
+    m = d.groupby([col_perfil, "categoria"])["indice"].mean().reset_index()
+    linhas = []
+    for perfil, g in m.groupby(col_perfil):
+        g = g.sort_values("indice", ascending=False)
+        lojas_p = ", ".join(lojas[lojas[col_perfil] == perfil]["nome"])
+        mais = ", ".join(f"{cat(c)} ({v:.0f})" for c, v in g[g.indice >= 103].head(3)[["categoria", "indice"]].values)
+        menos = ", ".join(f"{cat(c)} ({v:.0f})" for c, v in g[g.indice <= 97].tail(3)[["categoria", "indice"]].values[::-1])
+        linhas.append([perfil, lojas_p, mais or "–", menos or "–"])
+    cols = (["Perfil", "Lojas", "Ganha espaço (índice)", "Perde espaço (índice)"] if lang == "pt" else
+            ["Profile", "Stores", "Gains space (index)", "Loses space (index)"])
+    return pd.DataFrame(linhas, columns=cols)
 
 
 def conceitos() -> list[tuple[str, str, str, str]]:
@@ -300,6 +509,18 @@ with abas[0]:
 
     st.markdown(f"### {CASE_ACHADOS_TIT[lang]}")
     st.markdown(achados())
+
+    st.markdown("### ✅ " + ("Recomendação para a rede" if lang == "pt" else "Recommendation for the chain"))
+    st.markdown(
+        "**Um miolo comum + 4 planogramas de borda.** A mercearia básica fica igual em todas as lojas; o que muda "
+        "por perfil é o espaço das categorias abaixo:" if lang == "pt" else
+        "**A common core + 4 edge planograms.** Dry grocery stays the same in every store; what changes by profile "
+        "is the space for the categories below:")
+    st.dataframe(recomendacao_rede(), hide_index=True, width="stretch")
+    st.caption("Índice médio das lojas de cada perfil (100 = média da cidade). A recomendação de cada loja está na "
+               "aba 🏪 Raio-X da loja." if lang == "pt" else
+               "Average index of the stores in each profile (100 = city average). Each store's recommendation is in "
+               "the 🏪 Store deep-dive tab.")
     st.markdown(CASE_NAVEGAR[lang])
 
 # ---------------------------------------------------------------------------
@@ -403,6 +624,15 @@ with abas[2]:
     k[5].metric(t("potencial") + " " + t("por_mes"),
                 brl(L["potencial_total_mes"] / 1e6, 1) + (" mi" if lang == "pt" else "M"))
 
+    with st.container(border=True):
+        st.markdown("#### 💡 " + ("Recomendação de sortimento para a região" if lang == "pt"
+                                 else "Assortment recommendation for the area"))
+        st.markdown(recomendacao_loja(loja_sel).replace("$", "\\$"))
+        st.caption("Índice = peso da categoria no potencial da área ÷ peso na cidade × 100. Motivos calculados com "
+                   "Censo 2022, Pesquisa OD 2023 e POF (dados reais)." if lang == "pt" else
+                   "Index = category share of the area's potential ÷ share in the city × 100. Reasons computed from "
+                   "the 2022 Census, 2023 OD Survey and POF (real data).")
+
     c1, c2 = st.columns([1, 1.4])
     with c1:
         faixas = ["0_14", "15_29", "30_59", "60_mais"]
@@ -448,6 +678,49 @@ with abas[2]:
                       legend=dict(orientation="h", y=-0.15))
     fig.update_traces(marker_line_color="white", marker_line_width=1)
     st.plotly_chart(fig, width="stretch")
+
+    # --- Perfil dos estabelecimentos (concorrência) ---
+    st.subheader(t("comercio_titulo"))
+    st.caption(t("comercio_sub"))
+    pc = perfil_comercio(loja_sel)
+    if pc is None:
+        st.warning(t("sem_dados_conc"))
+    else:
+        med = medias_comercio(tuple(lojas["loja_id"]))
+        def dl(v, m, fmt):
+            return None if np.isnan(v) or np.isnan(m) else f"{fmt(v - m)} vs {t('media_lojas')}"
+        kc = st.columns(4)
+        kc[0].metric(t("estab"), pc["n"], dl(pc["n"], med["n"], lambda x: f"{x:+.0f}"), delta_color="off")
+        _d1 = (lambda v: f"{v:.1f}".replace(".", ",")) if lang == "pt" else (lambda v: f"{v:.1f}")
+        kc[1].metric(t("por10mil"), _d1(pc["por10mil"]),
+                     dl(pc["por10mil"], med["por10mil"], lambda x: ("+" if x >= 0 else "") + _d1(x)), delta_color="off")
+        kc[2].metric(t("pct_redes"), "–" if np.isnan(pc["pct_redes"]) else f"{pc['pct_redes']:.0%}",
+                     dl(pc["pct_redes"], med["pct_redes"], lambda x: f"{x*100:+.0f} p.p."), delta_color="off")
+        kc[3].metric(t("mais_proximo"), "–" if np.isnan(pc["mais_proximo"]) else f"{pc['mais_proximo']:.0f} m")
+        if pc["n"]:
+            tb = pc["tabela"]
+            ce1, ce2 = st.columns([1.3, 1])
+            with ce1:
+                b = tb["bandeira"].value_counts().sort_values()
+                fig = go.Figure(go.Bar(y=b.index, x=b.values, orientation="h", marker_color=AZUL,
+                                       text=b.values, textposition="outside"))
+                fig.update_layout(title=t("bandeiras"), height=60 + 32 * len(b), margin=dict(t=40, b=10, l=10))
+                st.plotly_chart(fig, width="stretch")
+            with ce2:
+                fm = tb["tipo"].map({"supermarket": "Supermercado" if lang == "pt" else "Supermarket",
+                                     "convenience": "Conveniência" if lang == "pt" else "Convenience"}).value_counts()
+                fig = go.Figure(go.Pie(labels=fm.index, values=fm.values, hole=0.6,
+                                       marker=dict(colors=[AZUL, "#e0851f"], line=dict(color="white", width=2))))
+                fig.update_layout(title=t("formato"), height=300, margin=dict(t=40, b=10),
+                                  legend=dict(orientation="h", y=-0.1))
+                st.plotly_chart(fig, width="stretch")
+            with st.expander(t("lista_estab")):
+                lst = tb[["nome", "bandeira", "tipo", "dist_m"]].sort_values("dist_m").rename(columns={
+                    "nome": "Nome" if lang == "pt" else "Name", "bandeira": "Bandeira/grupo" if lang == "pt" else "Banner/group",
+                    "tipo": "Tipo (OSM)" if lang == "pt" else "Type (OSM)",
+                    "dist_m": "Distância da loja (m)" if lang == "pt" else "Distance from store (m)"})
+                st.dataframe(pd.DataFrame(lst), hide_index=True, width="stretch")
+        st.caption(t("osm_aviso"))
 
 # ---------------------------------------------------------------------------
 # 3. Comparar lojas

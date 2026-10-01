@@ -474,3 +474,26 @@ CASE_NAVEGAR = {
 | 📚 **Data & method** | where each data point comes from, assumptions and limitations |
 """,
 }
+
+T.update({
+    "mapa_lateral": {"pt": "Clique numa loja para escolher. Arraste para mover e use + / − para dar zoom.",
+                     "en": "Click a store to pick it. Drag to move and use + / − to zoom."},
+    "comercio_titulo": {"pt": "🏬 Comércio de alimentos no entorno", "en": "🏬 Food retail around the store"},
+    "comercio_sub": {
+        "pt": "Supermercados e lojas de conveniência mapeados no OpenStreetMap dentro da área de 15 min. "
+              "É um retrato da concorrência direta: quantos são, de que tipo e de quais redes.",
+        "en": "Supermarkets and convenience stores mapped in OpenStreetMap within the 15-min area. "
+              "A snapshot of direct competition: how many, what type and which chains."},
+    "estab": {"pt": "Estabelecimentos", "en": "Establishments"},
+    "por10mil": {"pt": "Por 10 mil moradores", "en": "Per 10k residents"},
+    "pct_redes": {"pt": "De grandes redes", "en": "From big chains"},
+    "mais_proximo": {"pt": "Concorrente mais próximo", "en": "Nearest competitor"},
+    "media_lojas": {"pt": "média das lojas", "en": "store average"},
+    "formato": {"pt": "Formato", "en": "Format"},
+    "bandeiras": {"pt": "Bandeiras na área", "en": "Banners in the area"},
+    "lista_estab": {"pt": "Ver lista de estabelecimentos", "en": "See list of establishments"},
+    "sem_dados_conc": {"pt": "O OpenStreetMap não respondeu para esta loja, então o perfil dos estabelecimentos não está disponível.",
+                       "en": "OpenStreetMap did not respond for this store, so the establishment profile is unavailable."},
+    "osm_aviso": {"pt": "O OpenStreetMap é colaborativo e costuma subcontar o comércio; leia como um retrato mínimo.",
+                  "en": "OpenStreetMap is crowdsourced and tends to undercount retail; read it as a lower bound."},
+})
